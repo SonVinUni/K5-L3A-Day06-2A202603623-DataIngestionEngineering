@@ -1,0 +1,940 @@
+pdf_page,chars,first_line
+1,0,
+2,0,
+3,112,Introduction to 
+4,2464,OpenStax 
+5,2036,OPENSTAX 
+6,359,"Study where you want, what "
+7,1184,CONTENTS 
+8,1395,5.1 Computer Systems Organization 194 
+9,1590,9.3 Special Topics 468 
+10,169,14.3 Governing the Use of Cyber Resources 893 
+11,3613,Preface 
+12,4445,"including computer science, business, engineering, data science, socia"
+13,4167,the principles of computer science but also see how they can be applie
+14,3191,Labs are intended for homework assignments or classroom discussion; th
+15,1386,"Kevin Lin, University of Washington "
+16,2453,"Mourya Narasareddygari, Rider University "
+17,2040,We realize that students benefit when academic integrity ground rules 
+18,45,8     Preface
+19,2482,"Figure 1.1 Computing is everywhere, affecting everyone, for better and"
+20,3980,ethical behavior in computer science. The book is designed to help stu
+21,3239,"Algorithms may sound complicated, but they can be quite simple. For ex"
+22,2930,Richard Bellman was a significant contributor to this effort. A mathem
+23,2979,"Figure 1.3 The ARPANET, circa 1974, was an early predecessor to the In"
+24,3490,today’s computers can also be computed by the ENIAC given the right ci
+25,4863,"On the flip side, there are tasks that neither computers nor humans ca"
+26,2297,"software engineers, designed their computer science curricula to teach"
+27,4412,"In one chapter of Black Software, Charlton McIlwain shares stories fro"
+28,4502,GLOBAL ISSUES IN TECHNOLOGY 
+29,2896,"work, OLPC’s vision for education never truly materialized because chi"
+30,3658,portion of the cost in Middle Eastern and African countries using tech
+31,4568,very same power that limits spreadsheets as a data management and larg
+32,2760,Figure 1.7 Meteorologists collect data from a variety of sources and u
+33,3302,"• Science plays a key role in human-computer interaction, which emphas"
+34,2708,Figure 1.8 While Americans used to primarily get their news from newsp
+35,2479,◦ Security 
+36,4352,"As noted earlier, computer science is a powerful tool, and computer sc"
+37,3414,Recent approaches to AI for image recognition draw on a family of meth
+38,4345,development of foundational computer technologies not only creates opp
+39,2355,adversary can choose the color of the point in such a way as to almost
+40,3099,computer scientists are interested in studying questions around how te
+41,4533,"determined by various factors, at least partly in response to the mone"
+42,1179,"To address social problems and advance social good, recall that human-"
+43,3236,Chapter Review 
+44,4525,"such as the Internet. With foundations in engineering and mathematics,"
+45,2239,Review Questions 
+46,2514,a. computational science 
+47,3329,programs today. 
+48,1075,contribute to the simulation? What does the simulation suggest is need
+49,2504,"Figure 2.1 A work environment, such as this modifiable “sp.ace” at Joh"
+50,3816,and automation. They embraced computational thinking by applying algor
+51,2269,76CompThinking) from the BBC. 
+52,2889,is called decomposition. This approach helps analyze and solve problem
+53,3004,"techniques (cornerstones) to computational thinking, as illustrated in"
+54,2689,you can contribute to the development and refinement of strategies tha
+55,2698,TECHNOLOGY IN EVERYDAY LIFE 
+56,2052,"Figure 2.6 When using GenAI, a user interacts with the interface while"
+57,3130,"using programming keywords such as INPUT, OUTPUT, IF, THEN, ELSE, and "
+58,1942,int recursiveSum (int x) { 
+59,1572,// Recursive step 
+60,3117,"be. Take, for instance, the strategic gameplay involved in chess. To e"
+61,3329,INDUSTRY SPOTLIGHT 
+62,4330,2.2 Architecting Solutions with Adaptive Design Reuse in Mind 
+63,3469,various types of components may be reused. When you ask Thoughtworks’ 
+64,3829,Componentization has already been introduced as a computational thinki
+65,2405,Figure 2.10 The different layered architectures include tiered archite
+66,3390,Architecture Purpose Components 
+67,2977,componentization heuristics play an important role in structuring capa
+68,2962,tasks and authorities among different positions or departments. 
+69,1950,within a business that is not further subdivided into smaller processe
+70,2405,Figure 2.13 The trading business process hierarchy includes activities
+71,4100,"have enough to meet demand, keep production running smoothly, and redu"
+72,1826,Figure 2.14 The order to cash business process flows from order manage
+73,3970,Enterprise Technical Architecture 
+74,1425,Figure 2.16 illustrates a conceptual application architecture model of
+75,2822,THINK IT THROUGH 
+76,2419,to data management and the pyramid of knowledge is provided in Chapter
+77,3525,INDUSTRY SPOTLIGHT 
+78,1309,"While reusing designs has its benefits, it’s important to also think a"
+79,2408,Figure 2.22 This alternative physical trading application architecture
+80,1122,"accompanying diagrams, and related patterns. These architecture domain"
+81,4092,scope of a model is crucial because there exists a direct relationship
+82,2018,"frameworks, thereby fostering innovation in a more focused and resourc"
+83,2512,Figure 2.25 The TOGAF architecture continuum can suggest extensions bu
+84,2691,Figure 2.26 The logical application architecture of Microsoft Azure-ho
+85,2774,applications that can run seamlessly on different mobile platforms. Th
+86,2413,Web 3.0 Business Solutions 
+87,2326,specific job and works on its own is called microservices. A large num
+88,3041,favor countries that have the means to perform broadscale transformati
+89,741,"Figure 2.30 IoT devices use sensors, applications, and connectivity to"
+90,210,driving more efficient business models and creating value in ways that
+91,3694,Chapter Review 
+92,3868,"microservices  way of building software by breaking it into small, ind"
+93,3998,while ignoring irrelevant details. 
+94,2622,long-term growth and accessibility of the World Wide Web. 
+95,2152,c. enterprise architecture 
+96,2531,Conceptual Questions 
+97,2412,Task Decomposition Pattern Recognition Abstraction Algorithm 
+98,3864,4 . Draw a cloud-native application architecture diagram for the tradi
+99,1981,"Figure 3.1 Online mapping applications represent places, locations, an"
+100,4322,Computer science is the study of computers and computational systems t
+101,4015,"Although the values for complex data are often diverse, computer scien"
+102,3951,data structures for a particular problem? Computer scientists apply a 
+103,2595,priority queues by organizing elements in a hierarchy rather than in a
+104,3091,"sub-node of D which is at the middle of the list of letters (A, B, C) "
+105,3509,Balanced binary search trees such as AVL trees represent just one appr
+106,3539,earthquake location that is closest to the user’s real location. At an
+107,3585,GLOBAL ISSUES IN TECHNOLOGY 
+108,4161,"can represent the same abstract data type, many different solutions ex"
+109,4397,"defines the rules and potential outcomes. Without models, algorithm de"
+110,3953,"computation, one that focuses on generalized algorithms designed to so"
+111,1764,Figure 3.9 A sequential search can find the number 47 in an array by c
+112,2554,problem in terms of more familiar data types. 
+113,4143,"outputs are then evaluated for correctness, which considers whether th"
+114,3023,ourselves. 
+115,3476,time exactly how long it takes to run the program with a stopwatch. Th
+116,4701,Time and Space Complexity 
+117,2639,"worst-case complexity. In precise English, we might say that the time "
+118,2126,Figure 3.14 The order of growth of an algorithm is useful to estimate 
+119,3310,large number tells how many times it needs to be divided by a small nu
+120,3349,TECHNOLOGY IN EVERYDAY LIFE 
+121,3542,"Earlier, we introduced binary search to find a target within a sorted "
+122,2980,Figure 3.17 Merge sort is a divide and conquer algorithm that repeated
+123,3779,INDUSTRY SPOTLIGHT 
+124,2906,Figure 3.18 Greedy interval scheduling will not work if the simple rul
+125,2939,"deployment, and integration of new technologies so that marginalized c"
+126,2875,Figure 3.21 The problem of finding a minimum spanning tree in a graph 
+127,3666,Searching 
+128,2579,Merge Sort Algorithm 
+129,3906,Figure 3.24 Heapsort uses the binary heap data structure to sort eleme
+130,2453,Figure 3.25 Hash tables data structures apply hashing to implement abs
+131,1805,Figure 3.26 Depth-first search is a graph traversal algorithm that con
+132,2468,where cost is the sum of the selected edge weights. The two canonical 
+133,2513,Weighted Shortest Path 
+134,3960,Models of Computation 
+135,4534,2. Store the value 1 to address B in the memory bank. 
+136,3612,"shortest paths tree to inform the solution. But in longest paths, the "
+137,1792,NP-complete problem. 
+138,3676,Chapter Review 
+139,3841,cost model  characterization of runtime in terms of more abstract oper
+140,3661,appear once in the map 
+141,3912,time complexity  formal measure of how much time an algorithm requires
+142,4121,such as search algorithms. 
+143,4233,• Greedy algorithms solve combinatorial problems by repeatedly applyin
+144,3604,• A Turing machine is an abstract model of computation for executing a
+145,2886,"4 . What is one way to describe the relationship between algorithms, p"
+146,2655,randomized incremental construction algorithmic paradigm. 
+147,3492,primarily contributes to this linearithmic order of growth? 
+148,2753,elements. What can we say about the first element removed from the bin
+149,3542,9 . The runtime of most binary heap priority queue operations is in O(
+150,3683,vertices and edges for the flood fill problem? 
+151,1266,"time of arrival, basic assessment of severity, and availability of doc"
+152,58,142     3 • Chapter Review
+153,2408,Figure 4.1 Low-level programming languages support little or no abstra
+154,4478,"intelligence, allow those who need prosthetics to enjoy a quality of l"
+155,2662,algorithms. 
+156,1259,Figure 4.3 A Random Access Machine has unlimited memory cells that can
+157,3512,} 
+158,2508,"a program in the native format that can be understood by a CPU, in the"
+159,3142,Figure 4.7 An assembler is a program that translates assembly language
+160,1446,"Figure 4.8 As a rule, high-level languages are less laborious to write"
+161,4502,"high-level language does not address low-level details, and instead fo"
+162,2296,imperative steps to evaluate the functions. 
+163,1865,LINK TO LEARNING 
+164,2197,} 
+165,1914,Figure 4.13 This diagram demonstrates various functions used by the so
+166,2076,Figure 4.14 The object-oriented use of a robot class instantiates robo
+167,1796,Figure 4.15 Dennis Ritchie of Bell Labs invented the C programming lan
+168,4026,"so long means that it is very likely to endure, which cannot be said o"
+169,2099,Figure 4.16 A pointer is a variable whose value is another variable’s 
+170,4050,"In C, an invalid array subscript will access memory outside of the arr"
+171,2789,Figure 4.17 A typical work cycle includes multiple compilation steps a
+172,3010,originally created for Java programming. Eclipse is portable as it is 
+173,1555,Linking Programs 
+174,1559,Figure 4.19 Source files and separately compiled relocatable object fi
+175,1067,"Figure 4.20 In the process of compilation and linking in C++, “.hpp” a"
+176,2472,Executable and Linkable Module Format 
+177,2504,Figure 4.24 This diagram illustrates how various symbols are organized
+178,1388,Figure 4.25 The diagram illustrates how the ar archiver utility is use
+179,2585,"Therefore, the command line order matters and libraries should be plac"
+180,1135,Figure 4.28 A shared library can be used by multiple programs simultan
+181,1430,Figure 4.29 The diagram illustrates how object files may be loaded and
+182,2562,... 
+183,3588,• Pull: git pull origin master to pull latest changes 
+184,1980,on multiple processors. 
+185,3597,All these events caused a severe shortage. Customers encountered long 
+186,3055,programming paradigm and new emerging computing technologies for their
+187,1514,Figure 4.31 Developing parallel software follows ten important steps. 
+188,2177,"sequential section in which it sets up the environment, initializes th"
+189,2623,4.4 Applications of Programming Models 
+190,3405,GLOBAL ISSUES IN TECHNOLOGY 
+191,1153,• Operating Systems: From 0 to 1 (https://openstax.org/r/76OperSystems
+192,3327,Chapter Review 
+193,3648,hardware model  design for a how a specific physical computer executes
+194,3618,procedural programming  paradigm in which code is organized into proce
+195,3697,task and has a descriptive name. 
+196,2660,• Rust is a relatively new middle-level language that is gaining tract
+197,2614,d. to run the compiled program on the operating system 
+198,1821,5 . What is an advantage of low-level programming over high-level prog
+199,2030,14 . Do you need to know how to assemble hardware and draw schematics 
+200,2332,12 . Write a C module that creates four threads to call a function tha
+201,3457,◦ Structured or unstructured 
+202,1568,"6 . When the Mozilla Foundation created Rust, C was already an establi"
+203,2243,"Figure 5.1 What does the word computer really mean? For example, super"
+204,3458,"a text editor, or a web browser. In this chapter, you will learn how c"
+205,4133,"programs to function. For example, the media player is a program, and "
+206,2510,(Figure 5.3). This special software that translates HLLs to executable
+207,1935,"Figure 5.4 Any computer system consists of several components that, to"
+208,3166,Main Memory 
+209,2937,Figure 5.5 A computer system can be viewed at several levels of abstra
+210,3615,Application Programs Abstractions 
+211,3024,Figure 5.7 A compiler takes code written in an HLL and converts it to 
+212,2662,then we need six compilers as shown in Table 5.1. 
+213,3576,Microarchitecture 
+214,3360,has more privileges in the computer system. 
+215,2622,"a non-traditional computer is a neuromorphic computer, which is built "
+216,3601,Unsigned Integer Numbers Representation 
+217,3481,Is the one’s complement a good method? There is a mirroring effect aro
+218,3125,"2 because computers do not know 2. The result of 1 + 1 is 10, which is"
+219,3229,we get the decimal equivalent? Figure 5.14 illustrates how fractional 
+220,3364,Figure 5.15 IEEE 754 is the standard of choice in most machines to pre
+221,3622,5.4 Machine-Level Program Representation 
+222,3253,Figure 5.16 x86 is a CISC ISA with backward compatibility dating back 
+223,3362,Assembly and Machine Code 
+224,2970,and so on. Each register stores one item. An x86 programmer has access
+225,3105,ways to enhance their HLL code. 
+226,3570,"3. Control instructions, which are the instructions that implement the"
+227,2813,Procedure Call Operations 
+228,2862,Figure 5.19 The gap between processor speed and memory speed is increa
+229,1896,The Memory Hierarchy 
+230,2459,Technology Name Use Case 
+231,1806,Figure 5.21 This simplified view of DRAM shows one bank. (attribution:
+232,3247,Memory: SRAM 
+233,3182,"Both the SRAM and DRAM, or cache and memory, are volatile—whenever the"
+234,2968,parts: the storage itself and the circuitry that accesses the storage.
+235,1853,Figure 5.25 Most processors now have three levels of cache memory. (at
+236,3616,5.6 Processor Architectures 
+237,1928,as Dennard scaling. 
+238,3867,If we take a snapshot of the pipeline during the execution of the prog
+239,421,Multiple Nodes 
+240,3435,Chapter Review 
+241,3409,object code  designates output of the assembler 
+242,4125,"algorithm into a programming language, then how to translate this prog"
+243,2175,"• By paying attention to locality in accessing the data, the programme"
+244,1655,b. 11100100 
+245,2519,c. cache miss 
+246,2922,13 . Why are the different technologies organized as a hierarchy? 
+247,1765,"Given X = 10100110, "
+248,2057,4 . We derived the equation m + (1 – p)M for average access latency wh
+249,2364,"Figure 6.1 Operating systems operate on many computers and devices, wh"
+250,2468,typically required to facilitate access to all the components involved
+251,3257,concurrently on the same CPU and memory operate independently without 
+252,2587,Property Question 
+253,4074,Mechanisms Implementation 
+254,3268,Figure 6.3 The UNIX/Linux system structure is made up of three main pa
+255,3680,world differently. 
+256,2801,"everyone. Additionally, openness aligns with ethical principles of tra"
+257,3343,"the computer. (attribution: Copyright Rice University, OpenStax, under"
+258,2862,THINK IT THROUGH 
+259,3232,combination with a portion of a hard drive that contains the swap file
+260,2264,"effectiveness. Namely, it’s been found that windowing systems signific"
+261,3698,Device drivers are specialized software components that enable higher-
+262,2552,CONCEPTS IN PRACTICE 
+263,3355,CC BY NC-SA 4.0 license) 
+264,2461,"Figure 6.12 In a layered OS architecture, the OS is divided into layer"
+265,1064,"Figure 6.13 In the microkernel architecture, kernel mode is divided in"
+266,2266,"Figure 6.14 Windows OS as plug-in architecture—in Windows OS, all of t"
+267,3499,infrastructure is categorized into three service models: 
+268,3207,"actions, manipulate data, and interact with other processes. "
+269,1815,data structure called the process control block (PCB) or process descr
+270,3517,Inter-Process Communication 
+271,3114,"Figure 6.18 Concurrent processing, in which the OS handles multiple ta"
+272,3311,"Figure 6.19 In the single-threaded process, a single thread will use i"
+273,3703,• running: executing on a core 
+274,2452,"executed, and, finally, updates PCB1 of process P1. "
+275,3014,"quantum, to each process in the ready queue. The CPU scheduler cycles "
+276,4125,"Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) "
+277,3633,careful design and coding practices are necessary to prevent or detect
+278,2847,• Address space boundaries protect the kernel and address space progra
+279,2836,"virtualizations, all OSs expect contiguous physical memory that starts"
+280,2017,"Figure 6.28 In Linux’s memory layout, the code starts at location 0, t"
+281,3384,Allocating the data in a tree-based data structure called a heap is he
+282,1904,Figure 6.31 Translation lookaside buffers (TLBs) speed up address tran
+283,2974,"Figure 6.32 In demand paging, a CPU retrieves pages from the virtual m"
+284,3436,performance. 
+285,4019,crashes and hardware failures is called its reliability. In addition t
+286,3101,"Figure 6.33 In file versioning, the OS saves all copies of a file (in "
+287,2583,"Figure 6.34 In the Linux OS, the total number of inodes on the directo"
+288,3940,"and distributing them across a network of computers, HDFS can process "
+289,2979,"• Lower power consumption: SSDs consume less power, which can contribu"
+290,4765,Security 
+291,3710,systems in Windows. The utilization involves sharing a namespace at a 
+292,3765,Figure 6.37 Running a recovery process with fsck resulted in these cod
+293,4144,"2 MB/sec to 200+ MB/sec, a 100-fold increase. Network speeds went from"
+294,1836,"development, and desktop virtualization. Virtual machines have become "
+295,3589,Chapter Review 
+296,3905,support network-wide sharing of files and devices 
+297,3768,isolation  ensures that the multiple programs that are running concurr
+298,3862,quota  amount of space to store files based on the available memory sp
+299,4173,• Improving efficiency results in speeding up the implementation of ap
+300,4056,"• A process consists of at least an address space, a CPU state, and a "
+301,3219,• The file system interface defines standard operations such the creat
+302,2254,b. kernel 
+303,2008,c. the name of a file in a directory 
+304,2474,authorized users or in a data authentication server? 
+305,3370,4 . Explain why we need to study OS allocation methods. 
+306,3049,4 . Consider our start-up company that is 100% committed to leveraging
+307,1774,Figure 7.1 High-level languages make it easier for programmers to solv
+308,2101,programmers’ preferences. JavaScript with frameworks like Node offers 
+309,1750,Figure 7.2 High-level programming languages have advanced from the fou
+310,2629,practically consists of moving the pixels that form characters one by 
+311,2259,Characteristic Readability Writability Reliability 
+312,1761,Figure 7.3 A C pointer variable “a” holds the memory address of the “b
+313,2870,applications. API functionality can also help people with everyday lif
+314,2508,110- READ-INVENTORY-RECORD. 
+315,2600,more modular code. Pascal became the preferred teaching language durin
+316,1357,Figure 7.4 This GUI shows the “Hello World!” application using C++ and
+317,2947,LINK TO LEARNING 
+318,3497,Logic-Based Languages 
+319,2933,with the event whenever it is triggered. 
+320,2640,interpreter. The compiler first translates the HLL programs to an inte
+321,2549,7.2 Programming Language Constructs 
+322,2478,"In general, data types are collections of values from a given domain: "
+323,2991,"we try, we will get a compile time error that will not allow the progr"
+324,3489,"languages, they are quite a bit more complex. They are implemented in "
+325,3089,"English, they comprise a relatively small set of words in a program. T"
+326,3540,$myAge = 21; 
+327,2265,Different HLLs may support operators differently. Some examples of the
+328,1420,Operator Name Example Expression Result 
+329,2390,Operator Example Equivalent to 
+330,2471,int a = (b + c) * d; 
+331,1993,and delineated as such. This is necessary so that an entire group of c
+332,1103,Figure 7.12 This unified modeling language (UML) activity diagram repr
+333,2452,Sometimes decisions might result in three or more possible pathways. I
+334,1770,one time. The sentinel decides if the loop runs again. It is useful to
+335,1333,In most modern languages a bottom tested loop is known as a do…while l
+336,3348,for ($count = 1; $count <= 5; $count = $count +1) { 
+337,3141,"myPay = payEmp(""John Doe"", 15.0,40.0); "
+338,2518,"System.out.println(empName + "" is being paid "" + empPay); "
+339,2261,Recursion 
+340,1155,"Figure 7.18 This diagram shows a program made up of multiple modules, "
+341,2656,"division by zero, end-of-file on input, and user-defined conditions (n"
+342,3085,Figure 7.20 Functional programming languages can be differentiated by 
+343,3260,"hidden from outside the class or object. In inheritance, objects take "
+344,2436,. . . . . 
+345,3597,interface. An override defines another method with the same name and m
+346,3246,conditions are all about timing because anomalies can occur when we do
+347,2661,} 
+348,2876,"OOP also adapts well to parallelism, which is another paradigm to cons"
+349,2891,Figure 7.23 Scripting languages can be further categorized by whether 
+350,2840,7.4 Programming Language Implementation 
+351,3147,Compilation 
+352,2807,"case, the purpose is to allow code from the different languages to wor"
+353,3824,"code runs very fast. If not, a dynamic check reverts to the interprete"
+354,2969,Virtual Machines 
+355,3510,"(IDEs) and provided by programming language interpreters, they also co"
+356,266,of various programming languages. The intermediate byte code generated
+357,3585,Chapter Review 
+358,3593,decrement operator (--)  unary operator that lowers the value of its o
+359,3492,intermediate code  language translation phase that produces a code lev
+360,3955,preprocessing  pre-compilation step in which the source code is manipu
+361,3644,top-tested loop  when a condition for further loop iteration is set at
+362,2555,• Concurrency is the behavior of an HLL when it can multitask sections
+363,1675,8 . What are the typical constituent parts of an HLL development envir
+364,2210,28 . What is the name for software that scans and translates the sourc
+365,1902,4 . What are some of the criteria for selecting among various HLLs? De
+366,2716,the area of the triangle and print it back out. 
+367,3681,"popular languages of C#, C++/C, Java, and Python. "
+368,1799,Labs 
+369,2137,"Figure 8.1 Big data taxonomy includes data providers, data consumers, "
+370,3831,"As an example, TechWorks is a start-up company that is 100% committed "
+371,2653,(MOAB) publicized discovered in early 2024 contains data from numerous
+372,2839,INDUSTRY SPOTLIGHT 
+373,3370,Data Quality 
+374,3465,Data Governance and Compliance 
+375,2642,The information architect collaborates with the database designer who 
+376,3310,Data Scientist 
+377,3620,"concepts to describe the structure of a database, the operations for m"
+378,2945,and business user). A database language is used to write instructions 
+379,2435,TECHNOLOGY IN EVERYDAY LIFE 
+380,2498,Figure 8.7 This sample MySQL Workbench graphical user interface shows 
+381,2080,Single vs. Multiuser DBMSs 
+382,4394,DBMS Usage Areas 
+383,3364,Due to the use of database logical schemas that constrain the row-base
+384,2516,CREATE TABLE Student ( 
+385,2635,Product Operator 
+386,3846,The resulting relation R includes all tuples that belong to P combined
+387,3438,"A condition is specified using a well-formed (calculus) formula (wff),"
+388,3090,Airplane wings are typically designed using computer-aided design (CAD
+389,562,First Name Last Name Item 1 Item 2 
+390,2493,Customer ID Item ID 
+391,4128,employee in a company may have dependents for health insurance purpose
+392,2139,Disk Storage and Basic File Structures 
+393,1714,Figure 8.10 This heap file organization example shows how to insert a 
+394,778,Employee 
+395,2542,Figure 8.11 Using indexing can improve the query performance. (attribu
+396,4464,RDBMS Architectures 
+397,3786,for a response from the service. API and HTTP calls are examples of sy
+398,2752,manager decides whether to commit or rollback a transaction using a tw
+399,2637,optimization is needed. 
+400,2892,8.4 Nonrelational Database Management Systems 
+401,3489,"joins, which can make querying more complicated, although it does not "
+402,3711,Limitations of the Relational Model 
+403,3264,the amount from the sender's account and adding it to the recipient's 
+404,3092,Key-Value Stores 
+405,2513,Transaction Management and Concurrency in NoSQL Databases 
+406,2515,Figure 8.18 This figure visualizes the tree-based DOM API: (a) shows t
+407,3161,immutability. 
+408,625,Figure 8.19 A graphic shows an example of a star schema. (attribution:
+409,2709,"Extraction, Transformation, and Loading Process "
+410,3157,SQL views directly on the underlying operational data sources as an ex
+411,2498,Characteristic Data Warehouse Data Lake 
+412,3877,Where does business intelligence fit into this data system? Business i
+413,3348,ethical use of data. 
+414,4646,data quality issues. Transparent and well-defined collaboration betwee
+415,3736,Big Data Analytics 
+416,2463,Data Preprocessing 
+417,2570,transparency of automated decision-making processes so that possible b
+418,2542,"Figure 8.27 After the data input stage, Map will start then Reduce to "
+419,4094,"SQL. Facebook developed Hive, which is a data warehouse solution offer"
+420,3118,retrieved results. Searching unstructured data is challenging. A full-
+421,2342,"computer learn and make decisions like the human brain does (e.g., rec"
+422,3298,"examples can be run on Azure as clusters of Docker containers (i.e., m"
+423,2351,Informatics as a Data Management Solution 
+424,3602,Chapter Review 
+425,4000,data lake  large data repository that stores raw data and can be set u
+426,3948,table 
+427,3748,MapReduce  open-source software framework used to apply complex querie
+428,3842,predictive analytics  predicts the target measure of interest using re
+429,3385,tuple and document store  database that stores data in XML or JSON for
+430,3683,"DBMS architecture, n-tier DBMS architecture, cloud DBMS architecture, "
+431,3603,business insights to support decision-making process. 
+432,2662,was collected from research and development experiments. 
+433,2446,11 . Give a few examples of data models and explain how they differ fr
+434,2880,d. There is one for each table in the data warehouse. 
+435,2652,5 . Which statement is correct? 
+436,3315,11 . Explain how informatics relates to sports. 
+437,4270,3 . Consider our start-up company that is 100% committed to leveraging
+438,896,retrained with new data weekly and make recommendations instantaneousl
+439,2511,Figure 9.1 Software engineering is used to develop solutions that are 
+440,4459,They must collaborate with enterprise and solution architects and be f
+441,4017,evolution of software. The various fundamental facets of software engi
+442,3713,"• required quality, reliability, and other nonfunctional requirements "
+443,3897,"accurate estimates of project scope and effort, and cost, which helps "
+444,4231,3. Carry out the plan. 
+445,3598,"microwave. Interaction with embedded software is usually limited, and "
+446,2721,Software Requirements 
+447,3855,"• maintainability, which is a measure of the amount of work required t"
+448,4897,• Problem-solving and algorithms: Software engineers are like detectiv
+449,1572,"project, they would also need to understand how to effectively communi"
+450,3677,"functionality (like C++ or Java), while others are better suited for a"
+451,4347,process model chosen for a project and may be elaborated differently d
+452,4359,"process model identifies a set of process elements (e.g., framework ac"
+453,3838,• Instill a team culture that requires all team members to work togeth
+454,4377,The inception phase of a project focuses on the gathering and refineme
+455,2997,of software requirements is called requirements modeling. The goal of 
+456,3489,"When doing requirements analysis, you can create specific outputs/work"
+457,4300,A detailed-level design model may then be derived from the high-level 
+458,4281,A solution is typically represented at various levels of abstraction. 
+459,4060,build on an already defined and solid architecture. This brings up the
+460,3562,• Information hiding: controlled interfaces that define and enforce ac
+461,4167,"The field of DevOps, a wide-ranging collection of development and oper"
+462,3916,DevOps’ automation. Software updates are deployed frequently today usi
+463,3933,also meeting with developers to train them on new technologies. It is 
+464,3471,TECHNOLOGY IN EVERYDAY LIFE 
+465,4165,"management/automation tools (e.g., Ansible, Vagrant), continuous integ"
+466,4249,Architecture management efforts may be performed at any point within t
+467,3388,but not iterative or agile. The Unified Process (UP) model was the fir
+468,2293,"Figure 9.8 In the waterfall model, one step of the software developmen"
+469,1778,smaller projects where the requirements are easy to understand and unl
+470,2212,"Figure 9.10 In the incremental model, the software process is divided "
+471,1620,Figure 9.11 A prototyping model focuses on the quick creation of a moc
+472,2360,Figure 9.12 The spiral model prioritizes risk analysis by combining el
+473,3394,UP model uses the word discipline or process to refer to the software 
+474,3535,possible to introduce iterations and integrate them with increments. W
+475,2816,The Scrum master is responsible for running Scrum and for helping ever
+476,3136,"and operations teams are merged into a single team, and software engin"
+477,2644,"closer. However, DevOps tends to focus on the product solution, or the"
+478,3108,Figure 9.16 Software process improvement can be used to transform any 
+479,2011,result of testing. 
+480,3686,for this program; they just need to agree to test the new version and 
+481,2145,"• Maintainability: Unit tests serve as living documentation, clarifyin"
+482,1707,Figure 9.18 This activity diagram illustrates how path coverage works 
+483,2933,• Clarifies requirements: Writing tests first forces developers to thi
+484,4280,unintended side effects were introduced during refactoring. 
+485,3718,• Ease of learning: How easy is it for users to learn how to use the s
+486,1899,to focus on a tactile warning over an audible one if the goal is to ge
+487,3056,"Microsystems; attribution: Copyright Rice University, OpenStax, under "
+488,1647,GitHub so that other developers can access them. 
+489,473,Figure 9.24 The Jira issue tracking system shows a common workflow of 
+490,1376,Figure 9.25 The jQuery bug tracker on GitHub keeps track of how many i
+491,3959,We typically think about all of the ways that technology and systems c
+492,4557,engineering areas. Patterns are typically organized hierarchically in 
+493,1180,purpose. 
+494,1671,"Figure 9.26 In the NetBeans IDE, the action of renaming a method falls"
+495,3647,It is important to read the license terms of any software code used. I
+496,3787,• Web browsers 
+497,3320,"For example, if a software engineer worked for an auto manufacturer, t"
+498,3837,"Consider two hypothetical scenarios: In the first, suppose that a deve"
+499,1138,"In 2021, the U.S. Bureau of Labor Statistics predicted that over the n"
+500,3905,Chapter Review 
+501,4041,extensibility  measure of the amount of work and cost required to add 
+502,3879,action 
+503,3737,user story  generic explanation aimed at the user to tell them how a s
+504,3612,"software process models include the waterfall model, V-model, incremen"
+505,2018,6 . What are common roles in a software team? 
+506,2712,Conceptual Questions 
+507,3458,within an automobile. 
+508,4120,bystanders. 
+509,4023,"would be able to scale the resulting business (i.e., keep sustaining t"
+510,778,4 . Explore Visual Studio Code (https://openstax.org/r/76VisStudioCode
+511,961,Figure 10.1 Metaphoric architecture incorporates symbolic elements and
+512,4036,"The first mission for the new solutions architect manager, Mr. John, i"
+513,3841,Once a technology stack that picks specific technologies that should b
+514,1583,• Solution scope: the pattern that can be applied to a single solution
+515,2374,Figure 10.4 A Java singleton class is a corresponding implementation-c
+516,1040,Figure 10.6 The general structure of a pattern catalog allows the book
+517,893,"Figure 10.7 Various business architecture design patterns, such as exc"
+518,3037,Figure 10.8 A pattern catalog can be used to select the pattern based 
+519,1766,INDUSTRY SPOTLIGHT 
+520,3072,10.2 Enterprise Architecture Management Frameworks 
+521,1188,Figure 10.11 This figure depicts the EA foundation design for executio
+522,527,Figure 10.13 The organizing framework includes information security pr
+523,1133,Figure 10.14 Typical enterprise capabilities within various business u
+524,1956,Figure 10.15 There are many possible impacts of investment initiatives
+525,1862,Figure 10.16 The business-IT alignment life cycle is a continuous impr
+526,1337,GLOBAL ISSUES IN TECHNOLOGY 
+527,1295,Type Description 
+528,1738,Figure 10.19 This figure shows how the generic EAM Awareness-Desire-Kn
+529,1741,quality care in the face of surprises. 
+530,2413,The reference architecture is built upon principles. A principle forms
+531,1718,Figure 10.21 This chart shows the relationship representation of IT/bu
+532,1503,"Figure 10.22 Using next-generation EAFs, various layers can be modeled"
+533,1852,and uses a different specification. 
+534,3255,Enterprise Architecture Framework Specifications 
+535,3567,architectures are company-specific. 
+536,4491,"Figure 10.26 Phases B, C, and D of TOGAF AMD represent multiple activi"
+537,2166,1. Formulate project recommendations 
+538,2574,Process Content 
+539,533,Figure 10.27 These are the steps of adopting a road map. The first ste
+540,1066,Figure 10.28 Business and IT drivers define the future state need and 
+541,1249,Enterprise Business and Technical Architectures 
+542,719,Figure 10.31 The technical architecture is divided into three layers: 
+543,1449,Figure 10.32 Focusing more on an application domain in the enterprise 
+544,1358,Figure 10.34 This sample representation of the blueprint for an inform
+545,811,Figure 10.35 This sample representation of the blueprint for informati
+546,2578,Figure 10.36 This design shows a sample representation of the technolo
+547,1681,shows how the template may be applied in an insurance industry context
+548,1157,"Figure 10.39 This blueprint represents interaction integration, busine"
+549,1682,Figure 10.40 The relationship between the customer and the enterprise 
+550,585,Figure 10.41 A conceptual technical architecture blueprint leverages t
+551,249,Figure 10.42 A technical implementation architecture blueprint leverag
+552,766,Figure 10.43 Callouts added to the technical implementation architectu
+553,2800,The main objective of HCC/HCI is to make computer systems more user-fr
+554,2171,"software, and services that run on the Internet instead of on a local "
+555,2778,10.3 Solution Architecture Management 
+556,3155,websites of industry publications like CIO Magazine for current insigh
+557,2104,Figure 10.46 This illustrates how enterprise architecture management a
+558,4026,"relationships between subsystems. Finally, refining the subsystems or "
+559,1871,"Figure 10.47 The stack consists of a user interface, application layer"
+560,3373,Chapter Review 
+561,3713,metamodel  evolving outlines for capabilities and relationships 
+562,3937,• Patterns management comprises a series of patterns that create an or
+563,2704,and the project scope. 
+564,2397,b. Phase B 
+565,3213,architectures from higher levels of architecture scope. Is it possible
+566,3572,9 . Provide an example of a technology stack that could be utilized to
+567,1429,to create products or services that can generate business. Give precis
+568,59,558     10 • Chapter Review
+569,1988,Figure 11.1 It takes many roles to build a responsive design in web ap
+570,2900,11.1 Modern Web Applications Architectures 
+571,3121,"and putting it online with hyperlinks. Today, simple websites with lim"
+572,3868,improve information access by mediating end-user searches to generate 
+573,3418,"Essentially, the web server performed all the HTML content rendering o"
+574,3141,functionalities provided by each component. High cohesion ensures that
+575,1363,Figure 11.5 This is a comparison of the life cycles between traditiona
+576,2132,Figure 11.6 This illustrates a user’s interaction with a single-page a
+577,2909,both. 
+578,3400,architectures more scalable. 
+579,3416,Native Application Development for iOS 
+580,4127,CONCEPTS IN PRACTICE 
+581,3177,"authorizing their actions, generating a UI for adding images, browsing"
+582,2499,Figure 11.9 Here is a traditional Web 2.0 website with back-end compon
+583,1144,• the inclusion of the IPFS for data storage 
+584,1760,"Figure 11.11 The front-end web page has been moved to IPFS, and graphi"
+585,1611,Optimistic rollups on Ethereum can improve scalability by a factor of 
+586,3643,This architecture focused on blockchains and used Ethereum as the prin
+587,781,Figure 11.13 This outlines the user’s interaction with a hybrid Web 2.
+588,1983,11.2 Sample Responsive WAD with Bootstrap and Django 
+589,723,Figure 11.14 This is what appears when adding Python and its Scripts f
+590,899,Figure 11.15 This screenshot displays the sequence of steps needed to 
+591,1036,Figure 11.16 The directory BootstrapDjangoToDoApp/ includes these Djan
+592,1488,LINK TO LEARNING 
+593,1534,Figure 11.19 To register the Todo application in the Django project as
+594,1893,The Category and TodoList Python classes describe the properties for t
+595,1803,"}, "
+596,1712,"Figure 11.20 The admin interface is where superusers can create, edit,"
+597,1906,"serializer and the Todo serializer. To do this, open todo/views.py and"
+598,1073,"Figure 11.21 Once the URL paths for the API are created, two API paths"
+599,1237,Figure 11.23 The Category List is created in JSON format after saving 
+600,1444,item has a Category field that appears as a drop-down list of categori
+601,2051,Figure 11.26 An efficient method to install Bootstrap in a Django appl
+602,1533,category=Category.objects.get(name=category)) 
+603,791,} 
+604,1053,height: 100%; 
+605,923,} 
+606,800,} 
+607,772,} 
+608,1013,font-weight: 600; 
+609,1291,} 
+610,1995,<!-- Bootstrap Core JavaScript --> 
+611,1845,{% for category in categories %} 
+612,715,{% endblock %} 
+613,473,Figure 11.28 This figure shows how the Todo List should appear after u
+614,1167,"Figure 11.29 Once the todo item is created, it should be viewable in t"
+615,1961,Creating a Todo Web Application with Bootstrap and React and Node 
+616,1499,"After the Node application initialization is completed, a package.json"
+617,1833,app.use(cors(corsOptions)); 
+618,1656,"using Mongoose. To do this, in the nodebackend/ directory, create the "
+619,1554,"}, "
+620,1229,todo 
+621,1472,if (!req.body) { 
+622,1728,res.send({ 
+623,2206,}); 
+624,1497,Creating the React App 
+625,2298,$ npm install bootstrap@4.6.0 reactstrap@8.9.0 --legacy-peer-deps 
+626,2642,"todoChecked: false, "
+627,1793,Connecting the React Front End to the Node Back End 
+628,1248,}; 
+629,1856,$ node server.js 
+630,2195,• Activate the venv used in section 11A.2: 
+631,2004,CORS_ORIGIN_WHITELIST = [ 
+632,1231,} 
+633,405,"Figure 11.36 After the React application starts up, this user interfac"
+634,1572,Figure 11.37 Once the Todo web application is updated using Bootstrap 
+635,1990,Creating a Todo Web Application with React Native and Node 
+636,384,Figure 11.38 This shows how to set up the Android emulator. (Android S
+637,703,Figure 11.39 This is how the emulator will appear after it is launched
+638,897,"Figure 11.40 When the React Native app is created, it will generate th"
+639,551,Figure 11.41 This page will appear when the react-native start command
+640,352,Figure 11.42 This code should appear in the second terminal when the R
+641,1176,"Figure 11.43 Once the React Native application is successfully built, "
+642,2447,"import React, {useState, useEffect} from 'react'; "
+643,2204,</TouchableOpacity>         <Text style={styles.addTaskHeading}>Add 
+644,425,$ npx react-native run-android 
+645,1122,Figure 11.45 Here is how the Todo item should appear on the main scree
+646,1299,"const [todos, setTodos] = useState([]); "
+647,2309,await axios 
+648,1177,• Download and install Ganache. Launch Ganache and choose the quick st
+649,1657,import 'bootstrap/dist/css/bootstrap.css'; 
+650,733,Figure 11.47 Here is the truffle-config.js file. (rendered with Truffl
+651,1409,); 
+652,1945,• compiled bytecode from the Solidity smart contract code that can run
+653,1839,Figure 11.49 Here are the transaction details for migrating the contra
+654,2606,ref={(input) => {                     this.checkbox = input 
+655,1865,const web3 = new Web3(window.ethereum); 
+656,1081,"""inputs"": [ "
+657,1028,"""type"": ""uint256"" "
+658,1631,"""stateMutability"": ""nonpayable"", "
+659,252,} 
+660,3618,Chapter Review 
+661,3622,World Wide Web (the Web)  started as a way to link content (primarily 
+662,3152,"Node v14.17.5, ExpressJS v4.17.2, MongooseJS v6.1.9, and Axios v0.21.0"
+663,2831,b. a software architecture pattern that separates a system’s presentat
+664,2442,12 . Why is the View function important? 
+665,2520,a. Android Studio 
+666,2906,8 . Explain how React and Node are used to create a Todo web applicati
+667,3273,Problem Set B 
+668,179,3 . Follow the steps provided in this subsection to build a sample Web
+669,2485,Figure 12.1 Cloud-native development and optimization is critical to d
+670,2171,and deployment. Cloud-native applications are critical to facilitate t
+671,2848,"cloud platforms to some degree, they are generally deployed as a singl"
+672,2548,online. An application designed using a monolith architecture is shown
+673,1231,Figure 12.5 An application that was designed to use a monolithic archi
+674,1398,Figure 12.6 An application is designed using a microservices architect
+675,1640,Figure 12.7 An application that was designed to use a microservices ar
+676,2760,Figure 12.8 Components in a monolith architecture are accessed differe
+677,2067,"providers and service consumers. The services, ESB, and messaging prot"
+678,3883,One example of a microservices design pattern is the Backend for Front
+679,1637,microservices when updating a microservice can lead to breaking backwa
+680,2288,Figure 12.10 A microservices architecture is configured to use log agg
+681,1988,resilient and limits the risks of failovers. 
+682,1849,"Finally, the cloud-native application and runtime environment is where"
+683,3782,One of the microservices stores its state in a distributed Redis cache
+684,3225,Container-Based Framework 
+685,2486,"Figure 12.14 Images are built as layers of an application, its depende"
+686,1789,Figure 12.15 Container orchestration is used to manage microservices i
+687,2487,Figure 12.16 Container orchestration is used to auto-scale and perform
+688,1870,infrastructure environments. Packages built during CI are deployed int
+689,4522,application as well as maximize the number of microservices that run o
+690,3732,development life cycle as possible. Automation helps reduce human erro
+691,1170,Figure 12.18 A Docker image is built from a Dockerfile to deploy an ap
+692,3814,under CC BY NC-SA 4.0 license) 
+693,3830,cloud-based Git repository as well as several DevOps features such as 
+694,3299,cloud. It has been observed that companies that adopt a cloud-native a
+695,2328,"a Service (IaaS), Platform as a Service (PaaS), and Software as a Serv"
+696,2671,Cloud Service Models 
+697,2063,also provides the flexibility for customers to scale up or down resour
+698,2084,"Figure 12.23 SaaS resources are managed by a cloud provider, like PaaS"
+699,2256,Figure 12.24 Complexity and level of investment effort decrease as lev
+700,1254,Figure 12.25 A public cloud deployment model consists of resources acc
+701,1717,Community Cloud Model 
+702,2145,Figure 12.28 A hybrid cloud deployment model combines two or more clou
+703,2413,"compliance considerations, and legacy dependencies. Bare metal servers"
+704,2143,Figure 12.31 Virtualization of compute resources via hypervisors is us
+705,2557,Figure 12.33 Multiple unikernels are built as specialized images and r
+706,3256,"Control groups, on the other hand, monitor and manage shared resources"
+707,2450,Figure 12.35 Serverless computing provides the highest level of abstra
+708,4026,the cloud service providers. FaaS/serverless solutions are inherently 
+709,3921,3. Building highly modular solutions potentially incorporating externa
+710,4265,"metal servers can be used for the resource-intensive components, where"
+711,3914,PaaS Deployment Technology 
+712,3298,GLOBAL ISSUES IN TECHNOLOGY 
+713,3887,across various cloud service providers. Customers manage several large
+714,4065,technologies to continuously meet business needs. 
+715,3073,THINK IT THROUGH 
+716,2660,Figure 12.36 A cloud-native application is deployed in Azure. (attribu
+717,1992,Basics Tab Settings 
+718,2554,"do the following: click Server parameters. In the search field, search"
+719,3358,SELECT *FROM inventory; 
+720,2628,Sequelize('postgres://Student%40<server_name>:Pa55w0rd1234@<server_nam
+721,2086,"app.post('/inventory', async (req, res) => { "
+722,2300,"PASSWORD with Password, and SERVER_NAME with Server name for the cnain"
+723,1342,"className=""flex bg-white shadow-lg rounded-lg mx-2 md:mx-auto mb-5 max"
+724,1171,padding: 0; 
+725,1872,const InventoryFeed: React.FC<Props> = (props) => { 
+726,3060,3. Click Review + create. Make a note of the Registry name and Resourc
+727,1985,"(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4"
+728,2193,2. Create the docker-compose.yml file and add the content below. This 
+729,2643,the correct name of the ACR registry. 
+730,2976,2. The Kubernetes cluster must be able to connect to the ACR registry 
+731,2020,# deployment.yaml 
+732,2321,name: cna-express 
+733,2231,--query 
+734,2607,Ingress object was successfully created. 
+735,3723,Set Up an Environment for VMWare Tanzu 
+736,2732,1. Run the command to update the apt utility itself before installing 
+737,2715,1. Download the latest release of kubectl with the command below. 
+738,1873,◦ Install the unzip CLI utility that is used to unpack the downloaded 
+739,1279,"(credit: Tanzu, under Mozilla Public License 2.0) "
+740,911,IaaS Provider Settings 
+741,1425,IaaS Provider Settings 
+742,1557,Run the Kuard Demo Application 
+743,1853,"(credit: Octant, a VMware-backed project) "
+744,1856,RESOURCE_GROUP=<value> 
+745,2278,--rights Listen Send 
+746,2484,--settings\ 
+747,1182,"return new Telemetryltem(temperature, pressure); "
+748,1769,public status getTemperatureStatus() { 
+749,2424,"--name $FUNCTION_APP""-c""\ "
+750,2244,producer function. Maven is used to build the project. 
+751,1435,if (item.getPressure() > 30) { 
+752,3230,"+ temperature + "",pressure="" + pressure + ""}""; "
+753,1087,function and the Azure event hub. It also shows the FaaS producer func
+754,3717,Chapter Review 
+755,3792,Docker Engine  open-source containerization platform used to build Doc
+756,4168,resource group  container that holds related resources used in a cloud
+757,4303,"quickly (e.g., Tanzu, Node). "
+758,3162,The FaaS functions were deployed in a serverless platform. The cloud s
+759,2421,10 . What are the various categories of tools used to develop cloud-na
+760,2945,c. tools that enable data objects to be plotted on a front-end map for
+761,3223,manifest files? What are they used for? 
+762,3747,"5 . In the first example we built, you worked with Kubernetes, which r"
+763,1188,2 . Build a hospital outpatient department (OPD) cloud-native applicat
+764,59,754     12 • Chapter Review
+765,2229,Figure 13.1 Business requirements determine cloud implementation and d
+766,3763,critical questions: How will they manage their budget to ensure effect
+767,3717,THINK IT THROUGH 
+768,4009,monitor and keep up the performance of their resources. Because of the
+769,4218,around and choose multiple vendors for the best price. Different provi
+770,4237,"sending them onto the cloud network, minimizing risks of data breach a"
+771,4036,through different common infrastructures that mainstream IaaS provider
+772,2573,"Figure 13.2 As the diagram shows, users and applications can access st"
+773,3358,"user’s location to eliminate long I/O latency. However, this is also o"
+774,2940,Figure 13.4 The access pattern for a compute service may differ depend
+775,2835,media content over the Internet delivered from CDN servers. Figure 13.
+776,1583,Figure 13.6 This picture provides an example of a simple monitoring da
+777,3212,"containerized application better, such as the following: "
+778,3914,"• A relational database service (RDS), in which the relationship betwe"
+779,3614,"Figure 13.9 Generally, this is how IoT data flow via mobile edge devic"
+780,2533,IoT Central 
+781,3282,of the Apache Hadoop or Spark stacks that are useful to support big da
+782,2231,customized machine learning as an on-demand service. 
+783,3251,"real-time streaming data. Various open-source frameworks, such as Kafk"
+784,4475,models (LLMs) and/or foundation models (FMs). LLMs are typically tuned
+785,3773,learning framework. 
+786,3781,Blockchain Services 
+787,1855,"Figure 13.12 This graphic shows AWS blockchain templates, which are us"
+788,3902,"When creating a Managed Blockchain network, the creator chooses the bl"
+789,3284,manage cloud applications. GlusterFS is a scalable network file system
+790,4414,"Ethereum, Bitcoin Cash, Dash, Dogecoin, Ethereum Classic, Litecoin, an"
+791,4035,"Microsoft also offers HoloLens 2, which is a set of smart glasses, and"
+792,4116,understanding of objects without the need for markers or manual alignm
+793,3615,cloud vendors are making 3-D printing technology available on the clou
+794,3034,"DevOps and migration, are provided as PaaS services on the big clouds."
+795,2546,"Figure 13.15 As this diagram shows, the Web has evolved and experience"
+796,4259,NFTs with a digital signature that cannot be exchanged or equated to a
+797,3639,"Lastly, XR can help provide remote care to patients with mobility issu"
+798,3005,and inclusion. 
+799,3351,as constraints at the same level as machine physical constraints such 
+800,2899,Supersociety Capabilities 
+801,3123,Robotics and Advanced Robotics 
+802,2576,intelligent. Figure 13.19 provides a list of components and architectu
+803,1792,"As these examples show, mobile robots have many applications. Figure 1"
+804,3015,throughput of supersociety applications. IBM already provides quantum 
+805,3966,The real-world applications of cognitive systems include speech unders
+806,3664,"source software framework, will drive innovation and adoption of neuro"
+807,3890,"easy. Because we lack certainty, we assume that certain computational "
+808,1819,"discussed so far. However, one of the missing links appears to be the "
+809,3652,Chapter Review 
+810,3859,neuroinformatics  study of how to build a computer that can mimic basi
+811,4425,13.2 Big Cloud IaaS Mainstream Capabilities 
+812,3522,"storage services that may be used to store 3-D models, Azure Remote Re"
+813,1864,"3 . Usually, what means do organizations use to communicate in the hyb"
+814,2074,b. a category of IoT network traffic that sends commands across a netw
+815,2270,20 . Which type of robotics uses principles discovered in nature as th
+816,3462,20 . What is nanotechnology and how can it benefit people who use the 
+817,3429,"virtual worlds, economic infrastructure, and experiences. "
+818,3712,"3 . You are the news director for your university’s website, and you w"
+819,2159,"choice for their cloud solution? If you were advising TechWorks, what "
+820,59,810     13 • Chapter Review
+821,1818,"Figure 14.1 As technology has advanced, the digital platforms that evo"
+822,4182,14.1 Cyber Resources Management Frameworks 
+823,2458,LINK TO LEARNING 
+824,2271,Figure 14.3 The Responsible Computing Framework helps organizations re
+825,3276,affects the information security policy. IT specialists must consider 
+826,2074,Categories Definitions 
+827,1899,These quality areas and the categories of “ilities” provide an avenue 
+828,3432,• architecture compliance review to check alignment with enterprise ar
+829,2579,Web platforms have continuously changed in direction and architecture 
+830,4320,"the system, is not feasible if companies want to interact with the wor"
+831,4735,"crucial with interoperability, scalability, portability, and extensibi"
+832,4521,and the quality of web/mobile platforms include several approaches tha
+833,4432,Trust in any service-providing system has a narrow margin for error. A
+834,4553,"The TRM has small applicability to robotics, with key considerations b"
+835,4501,"ease of use, performance, and reliability may suffer. Increasingly, pe"
+836,4401,"other objects, which is done through transaction processing. "
+837,4810,increase with every new device created. 
+838,4348,"a customer base, but that customer base usually wants to talk to a “re"
+839,4525,typically special environmental conditions that will trigger the trans
+840,4644,Industry 5.0 Supersociety Solutions Era 
+841,4626,we can assume that AI based on algorithmic analysis will be the curren
+842,4591,Researchers have tried to enhance the supercomputers through NT and mi
+843,3604,to be growing at the rate of demand. Several companies have openings i
+844,1962,Cybersecurity threats include behaviors such as 
+845,3890,Why Is Cybersecurity Important? 
+846,3676,"for data handling and user authentication, called application security"
+847,3984,Cybersecurity Misconceptions 
+848,4176,"malicious activities. An example is spyware, which can be installed by"
+849,3466,"management or higher-end jobs, but they have only entry-level skills. "
+850,3466,"• encryption: handled by an algorithm, and creates ciphertext and an e"
+851,3827,• Create long passwords with at least 16 characters. 
+852,2053,Figure 14.9 Privacy and anonymity are related concepts that are import
+853,3084,Reporting Period National Security Letters Users/Accounts 
+854,2959,"one can prove what was said, not Alice or Bob. Based on this, desirabl"
+855,3107,"(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4"
+856,3175,"intercepted, and the included metadata are exposed. To avoid this, Tor"
+857,1818,Figure 14.12 Tor is a multistep process that enables users to achieve 
+858,1967,"Figure 14.13 Tor hidden services, also known as onion services, achiev"
+859,2465,"Figure 14.14 Pond is a forward, secure, asynchronous messaging system "
+860,1814,Figure 14.15 ZKPs can be used to prove the correctness of computations
+861,3070,"Figure 14.16 zk-SNARK’s full machinery includes computation, algebraic"
+862,3181,"• Knowledge of exponent/pairing groups: Groth16, Sonic, Marlin, PLONK "
+863,4081,"specific bit values in keys. In the past, Chinese remainder theorem (C"
+864,2858,• Identify vulnerabilities. 
+865,3683,Buffer Overflow Attacks and Defenses 
+866,1387,"registers accordingly (e.g., %rbp vs. %ebp). "
+867,1333,8. Jump back to return address: %eip = 4(%ebp) /* use the copy */. 
+868,1740,Dave Levin) 
+869,1421,Figure 14.24 A code injection attack can be staged by loading code int
+870,2844,"Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license; cr"
+871,2554,Figure 14.28 The recipe for code injection is to guess the stack retur
+872,2926,the format string to an ANSI C format function in part or as a whole. 
+873,1419,Figure 14.30 Access is intended to check whether the real user who exe
+874,4666,Common Cyber Threat Defenses 
+875,3238,Figure 14.32 Virus writers generate a different virus code each time t
+876,2682,Software Solutions Assurance Methodologies 
+877,1952,"strcat(buf, "" day to you"",sizeof(buf)); //fails "
+878,955,"(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4"
+879,3508,free(pf1); 
+880,1744,"(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4"
+881,3240,Figure 14.33 Testing approaches can be either manual or automated and 
+882,3408,◦ Generate many random inputs and see if the program fails. 
+883,3828,"applications, and perform detection and logging. "
+884,2600,Difficulty Layer of Abstraction Examples 
+885,2699,Figure 14.35 The DHCP protocol creates IP addresses dynamically and as
+886,2348,"the query ID, it must guess the source port number, which is typically"
+887,2933,Figure 14.38 Source spoofing exploits the fact that the IP protocol do
+888,2443,company’s network for payroll file access while visiting a competitor’
+889,2903,"Figure 14.41 In IPsec tunnel mode, the VPN server decrypts and then se"
+890,1381,Figure 14.43 This IP address spoofing example illustrates how to detec
+891,1406,or initiating and using an entire connection without ever hearing the 
+892,2476,Figure 14.49 The OPT-ACK attack scheme results in packets getting drop
+893,3778,had security issues but was widely deployed. SSLv3 fixed these problem
+894,3394,"Figure 14.52 With an X11 remote SSH connection, the server simply has "
+895,3639,• Get CA to sign A -- Signature is Sign(MD5(message)) 
+896,3764,"• NIST cybersecurity standards (in particular NIST SP 800-53, SP 800-1"
+897,4137,multitenant cloud. This includes content protection at different layer
+898,4544,concerns with big data analytics. Hacking and various attacks to cloud
+899,3586,well as cloud governance processes prior to developing information sys
+900,3732,Industry 4.0 Metaverse Smart Ecosystems Cybersecurity 
+901,2499,Figure 14.53 The metaverse has four platform layers that generally fac
+902,4589,introduce vulnerabilities and requires additional defense mechanisms. 
+903,4012,further enable smart ecosystems services and support supersociety plat
+904,3726,"In cyber economics, at least three crucial aspects of cybersecurity re"
+905,3354,"For several years, IBM’s Academy of Technology (AoT) has worked on var"
+906,2367,assurance team and test the software of functional performance and are
+907,2147,Figure 14.54 The World Economic Forum’s goals are to create a society 
+908,3685,"information levels. In addition, responsible computing requires that w"
+909,583,LINK TO LEARNING 
+910,3975,Chapter Review 
+911,3760,"location, when system location is a requirement "
+912,4361,"including interfaces. At the same time, the SOA relates to the assembl"
+913,3806,and private sector organization. 
+914,1604,b. responsible data usage 
+915,1778,b. network solutions 
+916,2802,d. pseudonymity 
+917,2939,13 . How can responsible data usage help with building a super-society
+918,3468,this? 
+919,1984,inputs are required to develop this company’s architecture? 
+920,59,910     14 • Chapter Review
+921,3796,A Appendix A: Network Design Application of Algorithms 
+922,3905,"To ensure that the Internet and other computer networks can function, "
+923,4110,Network Security 
+924,4243,internetworking/switching.html#source-routing). 
+925,1499,"resources—including bandwidth, storage, and content—to give them great"
+926,96,916     A • Appendix A: Network Design Application of Algorithms
+927,3351,Index 
+928,3244,Azure Portal  706 
+929,3439,computer (CISC)  212 
+930,3319,database description language 
+931,3111,fat client variant  386 
+932,3248,(IAM)  839 
+933,3102,181 
+934,3245,nomadicity  816 
+935,3327,"privacy  821, 822, 824, 827, 832,"
+936,3368,search tree property  93 
+937,3119,"supersociety  813, 830, 891,"
+938,953,virtual reality (VR)  780 
+939,13,Index     929
