@@ -33,7 +33,7 @@ from .chunking import by_paragraph, fixed_size
 from .embeddings import build_embedder
 from .evaluation import evaluate_query, summarize
 from .ingestion import load_corpus
-from .store import PgVectorStore
+from .store import ChromaStore, PgVectorStore
 
 ROOT = Path(__file__).resolve().parents[2]
 STARTER = Path(__file__).resolve().parents[1]
@@ -59,10 +59,7 @@ def chunk_strategy(pages, name: str, spec: dict) -> list:
 
 
 def main() -> None:
-    database_url = os.getenv("DATABASE_URL")
-    if not database_url:
-        raise SystemExit("DATABASE_URL thiếu trong .env (copy .env.example sang .env)")
-
+    vector_store = os.getenv("VECTOR_STORE", "pgvector").lower()
     config, pages = load_corpus(ROOT / "data" / "corpus_config.json")
     if len(pages) < MIN_CONTENT_PAGES:
         raise SystemExit(
@@ -77,8 +74,20 @@ def main() -> None:
     print(f"Embedder: {embedder.model_name} | {dims} chiều | "
           f"backend {os.getenv('EMBEDDING_BACKEND', 'local')}")
 
-    store = PgVectorStore(database_url, dims)
-    store.create_schema()
+    if vector_store == "pgvector":
+        database_url = os.getenv("DATABASE_URL")
+        if not database_url:
+            raise SystemExit("DATABASE_URL thiếu trong .env (copy .env.example sang .env)")
+        store = PgVectorStore(database_url, dims)
+        store.create_schema()
+        print("Store: PostgreSQL + pgvector (cosine, exact)")
+    elif vector_store == "chroma":
+        chroma_path = os.getenv("CHROMA_PATH", str(STARTER / "chroma_data"))
+        store = ChromaStore(chroma_path, dims)
+        store.create_schema()
+        print(f"Store: Chroma local (cosine, HNSW approximate) tại {chroma_path}")
+    else:
+        raise SystemExit(f"VECTOR_STORE không rõ: {vector_store!r} ('pgvector' hoặc 'chroma')")
 
     RESULTS.mkdir(exist_ok=True)
     all_metrics: dict[str, dict] = {}
@@ -131,7 +140,9 @@ def main() -> None:
         "run_at": datetime.now(timezone.utc).isoformat(),
         "embedder": embedder.model_name,
         "dimensions": dims,
-        "store": "PostgreSQL + pgvector (cosine, exact)",
+        "store": ("PostgreSQL + pgvector (cosine, exact)"
+                   if vector_store == "pgvector"
+                   else "Chroma local (cosine, HNSW approximate)"),
         "stats": stats,
         "metrics": all_metrics,
     }

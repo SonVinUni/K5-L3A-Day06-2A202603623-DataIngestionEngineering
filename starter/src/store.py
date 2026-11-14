@@ -135,3 +135,102 @@ class PgVectorStore:
              "similarity": round(float(r[3]), 6), "metadata": r[4]}
             for r in rows
         ]
+
+
+# ---------------------------------------------------------------- Chroma local
+class ChromaStore:
+    """Store dự phòng theo CHECKPOINTS.md: Chroma local, không cần Docker.
+
+    Một collection cho mỗi chiến lược (day6_A/B/C), không gian cosine
+    (HNSW - tìm kiếm xấp xỉ, ghi nhận trong report). Chroma metadata chỉ
+    nhận str/int/float -> loại bỏ giá trị bool/dict; filter dùng câu
+    where = {khóa: giá trị} (nghĩa AND), tương đương jsonb @> của pgvector.
+    Lưu ý: collection giữ theo số chiều lúc tạo; đổi model embedding khác
+    chiều -> xóa thư mục Chroma và chạy lại.
+    """
+
+    def __init__(self, chroma_path: str, dimensions: int) -> None:
+        import chromadb
+        if dimensions <= 0:
+            raise ValueError(f"Số chiều phải > 0, nhận {dimensions}")
+        self._client = chromadb.PersistentClient(path=chroma_path)
+        self.dimensions = dimensions
+
+    def _collection(self, strategy: str):
+        return self._client.get_or_create_collection(
+            f"day6_{strategy}",
+            configuration={"hnsw": {"space": "cosine"}},
+            metadata={"dimension": self.dimensions},
+        )
+
+    def create_schema(self) -> None:
+        """Chroma tự tạo collection; không có bước nào khác."""
+        return None
+
+    @staticmethod
+    def _flat_metadata(chunk: "Chunk") -> dict:
+        out: dict = {}
+        for key, value in chunk.metadata.items():
+            if isinstance(value, bool):
+                continue  # Chroma metadata không nhận bool
+            if isinstance(value, (str, int, float)):
+                out[key] = value
+        out["document_id"] = chunk.document_id
+        out["source"] = chunk.source
+        out["page"] = chunk.page
+        return out
+
+    def upsert(self, strategy: str, chunks: list[Chunk],
+               vectors: list[list[float]]) -> int:
+        if len(chunks) != len(vectors):
+            raise ValueError(
+                f"Số chunk ({len(chunks)}) khác số vector ({len(vectors)})")
+        for chunk, vector in zip(chunks, vectors):
+            if len(vector) != self.dimensions:
+                raise ValueError(
+                    f"chunk {chunk.chunk_id}: vector {len(vector)} chiều, "
+                    f"đóng ý {self.dimensions}")
+        col = self._collection(strategy)
+        col.upsert(
+            ids=[c.chunk_id for c in chunks],
+            embeddings=[[float(x) for x in v] for v in vectors],
+            documents=[c.text for c in chunks],
+            metadatas=[self._flat_metadata(c) for c in chunks],
+        )
+        # Xóa chunk không còn thuộc corpus lần này (không nhân đôi)
+        new_ids = {c.chunk_id for c in chunks}
+        stale = set(col.get(include=[])["ids"]) - new_ids
+        if stale:
+            col.delete(ids=sorted(stale))
+        return len(chunks)
+
+    def count(self, strategy: str) -> int:
+        return self._collection(strategy).count()
+
+    def search(self, strategy: str, query_vector: list[float], top_k: int = 3,
+               filters: dict[str, Any] | None = None) -> list[dict[str, Any]]:
+        where: dict[str, Any] | None = None
+        if filters:
+            where = {}
+            for key, value in filters.items():
+                if key not in FILTER_KEYS:
+                    raise ValueError(
+                        f"Khóa lọc không cho phép: {key!r} "
+                        f"(đóng ý {sorted(FILTER_KEYS)})")
+                where[key] = value
+        res = self._collection(strategy).query(
+            query_embeddings=[[float(x) for x in query_vector]],
+            where=where,
+            n_results=top_k,
+        )
+        out = []
+        for i, cid in enumerate(res["ids"][0]):
+            meta = res["metadatas"][0][i] or {}
+            out.append({
+                "chunk_id": cid,
+                "page": meta.get("page"),
+                "text": res["documents"][0][i],
+                "similarity": round(1 - float(res["distances"][0][i]), 6),
+                "metadata": meta,
+            })
+        return out
