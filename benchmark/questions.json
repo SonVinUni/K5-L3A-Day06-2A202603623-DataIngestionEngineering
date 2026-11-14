@@ -1,0 +1,269 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hệ điều hành (OS) là thành phần phần mềm nào trong máy tính và nó quản lý điều gì?",
+    "expected_answer": "OS là phần mềm cốt lõi quản lý và điều khiển sự kết nối giữa phần cứng và phần mềm trên máy tính.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      250
+    ],
+    "evidence_quote": "An operating system (OS) is the core piece of software that typically manages and controls the interconnection of hardware and software on a computer."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thuật ngữ nào dùng để chỉ việc OS quyết định chương trình nào dùng phần cứng nào tại mỗi thời điểm?",
+    "expected_answer": "Scheduling (lịch trình hóa) — OS quản lý chương trình nào dùng phần cứng nào vào thời điểm nào.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      214
+    ],
+    "evidence_quote": "The process in which the OS manages which program to use with what part of the hardware at any given time is called scheduling."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dien_thu_lai",
+    "question": "OS dùng kỹ thuật gì để cách ly các chương trình, giúp chúng không ghi đè dữ liệu hay làm hỏng file của nhau?",
+    "expected_answer": "Virtual memory — kỹ thuật cách ly các chương trình khỏi nhau để không ghi đè dữ liệu hay phá hỏng file.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      214
+    ],
+    "evidence_quote": "The technique that the OS uses to isolate different programs from each other so that they do not overwrite each other's data or corrupt each other's files is called virtual memory."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "filter",
+    "question": "Trong chương 5, công nghệ bộ nhớ nào được dùng làm cache memory và nó có đặc điểm gì?",
+    "expected_answer": "SRAM (Static RAM) dùng làm cache memory: dễ bay hơi (volatile), rất nhanh, đắt, kích thước nhỏ (vài KB đến vài MB).",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      229
+    ],
+    "evidence_quote": "Static random access memory (SRAM) Cache memory • Volatile • Very fast • Expensive • Small in size (from few KB to few MB)",
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "filter",
+    "question": "Trong mục 5.5, SRAM còn được gọi là gì và nhờ đó nó có tác dụng gì?",
+    "expected_answer": "SRAM thường được gọi là cache memory — bộ nhớ cho phép truy xuất dữ liệu với tốc độ cao.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      232
+    ],
+    "evidence_quote": "In Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for high-speed retrieval of data.",
+    "filter": {
+      "section": "5.5"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "DRAM (bộ nhớ chính) có các đặc điểm nào so với kích thước theo bảng công nghệ lưu trữ?",
+    "expected_answer": "DRAM là bộ nhớ chính: volatile, nhanh, rẻ hơn SRAM, kích thước trung bình (1GB đến 128GB).",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      229
+    ],
+    "evidence_quote": "Dynamic random access memory (DRAM) Main memory • Volatile • Fast • Less expensive • Average in size (1GB to 128GB)"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Khi lệnh thứ nhất vừa được xử lý đến giai đoạn issue, các giai đoạn fetch/decode của pipeline đang làm gì, và điều này tạo ra hình thức song song nào?",
+    "expected_answer": "Fetch lấy lệnh 2 và bắt đầu lệnh 3; decode chuyển lệnh 1 sang issue rồi nhận lệnh 2 — song song (parallelism) giữa các giai đoạn.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      237
+    ],
+    "evidence_quote": "By the time the decode phase is done with instruction 1 and hands it to the issue phase, the fetch phase hands to it instruction 2 and starts fetching instruction 3, which is a form of parallelism."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dien_thu_lai",
+    "question": "Vì sao việc tăng số transistor trong bộ vi xử lý lại được kỳ vọng cải thiện hiệu năng?",
+    "expected_answer": "Transistor là khối xây dựng logic gate; logic gate xây adder, multiplier, register — nhiều transistor hơn nghĩa là nhiều tính năng hơn trong bộ xử lý, hiệu năng tốt hơn.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      236
+    ],
+    "evidence_quote": "Since transistors are the building blocks of logic gates, and logic gates are the building blocks of pieces such as adders, multipliers, and registers, then more transistors would mean more features implemented in the processor, hopefully leading to better performance."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dien_thu_lai",
+    "question": "Đâu là 3 bước chính trong pipeline xử lý lệnh (từ bộ nhớ đến đơn vị thực thi)?",
+    "expected_answer": "Fetch (lấy lệnh từ bộ nhớ) → Decode (giải mã để biết việc cần làm) → Issue (gửi lệnh đến đúng đơn vị thực thi, ví dụ phần nguyên hoặc số thực).",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      237
+    ],
+    "evidence_quote": "It fetches an instruction from memory, decodes this instruction to know what needs to be done, and issues the instruction to the correct execution units (e.g., an integer operation to the integer execution unit and a floating-point operation to floating point execution unit)."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Process trong hệ điều hành được định nghĩa như thế nào?",
+    "expected_answer": "Process là khái niệm cơ bản trong OS, là một instance (thể hiện) của chương trình đang được thực thi.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      267
+    ],
+    "evidence_quote": "a process is a fundamental concept in an OS that represents an instance of a program in execution."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Một process bao gồm ít nhất những thành phần nào?",
+    "expected_answer": "Ít nhất: address space (không gian địa chỉ), trạng thái CPU và một tập tài nguyên OS.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      268
+    ],
+    "evidence_quote": "A process consists of at least an address space, a CPU state, and a set of OS resources."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Paging là cơ chế lưu trữ như thế nào trong quản trị bộ nhớ?",
+    "expected_answer": "Paging dùng dạng page để đưa quá trình từ bộ nhớ phụ (hoặc virtual memory) vào bộ nhớ chính.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      282
+    ],
+    "evidence_quote": "The storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to main memory is called paging."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dien_thu_lai",
+    "question": "Theo chương 6, file system và thiết bị đĩa (disk device) khác nhau ở đâu về bản chất?",
+    "expected_answer": "File system là tầng trừu tượng tạo storage có cấu trúc, định nghĩa object logic như file, thư mục; đĩa là raw storage (lưu trữ thô).",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      285
+    ],
+    "evidence_quote": "While file systems are a layer of abstraction that provides structured storage and defines logical objects such as files and directories, disk devices are considered raw storage."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Security kernel là gì và nó được cấu thành từ những gì?",
+    "expected_answer": "Security kernel là phương án thay thế gồm cả phần cứng và phần mềm, đóng vai lớp bảo vệ bên trong của OS.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      291
+    ],
+    "evidence_quote": "The security kernel is a substitute approach that is composed of hardware and software and serves as the OS's inner protection layer."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dien_thu_lai",
+    "question": "Khi OS thiếu bộ nhớ vật lý, quá trình đưa page vào bộ nhớ chính khi cần thiết được gọi là gì?",
+    "expected_answer": "Demand paging — đưa page vào main memory khi quá trình thực thi cần tới.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      282
+    ],
+    "evidence_quote": "The storage mechanism in which pages should only allocate in the memory if it is required from the execution process is called demand paging."
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "filter",
+    "question": "Trong chương 6, các hệ điều hành phổ biến trên máy tính và trên thiết bị di động được nêu là gì?",
+    "expected_answer": "Máy tính: Windows, macOS, Linux; di động: iOS và Android.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      250
+    ],
+    "evidence_quote": "The typical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Figure 6.2).",
+    "filter": {
+      "chapter": 6
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "filter",
+    "question": "Theo mục 5.2, chương trình nào là phần mềm duy nhất có thể truy cập trực tiếp phần cứng, và chương trình khác (ví dụ in ấn) phải làm gì để thao tác phần cứng?",
+    "expected_answer": "Chỉ có OS truy cập trực tiếp phần cứng; mọi chương trình khác (vd in) phải 'nói chuyện' với OS và OS thực hiện thay.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      214
+    ],
+    "evidence_quote": "Any other program that needs to access the hardware, such as printing something, must talk to the OS, and the OS achieves the requested task on behalf of the program.",
+    "filter": {
+      "section": "5.2"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "filter",
+    "question": "Trong chương 5, điểm khác biệt quan trọng giữa cache memory và DRAM liên quan đến lập trình viên là gì?",
+    "expected_answer": "Cache memory là programmer-transparent (lập trình viên không thể quản lý việc dùng nó), còn DRAM thì không.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      232
+    ],
+    "evidence_quote": "One important distinction between the cache memory and the DRAM is that the former is programmer- transparent (i.e., its use cannot be managed by the programmer), but the latter is not.",
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Nếu một process không hoàn thành công việc trước khi hết time slice, CPU xử lý nó như thế nào?",
+    "expected_answer": "CPU đẩy process đó ra cuối hàng đợi (queue) các process.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      278
+    ],
+    "evidence_quote": "If the time slice ends and the process did not finish the job, the CPU shifts it out to the end of the processes queue."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "dien_thu_lai",
+    "question": "Giai đoạn nào trong pipeline viết kết quả phép tính trở lại đúng chỗ chỉ định bởi lệnh, và có tên gọi là gì?",
+    "expected_answer": "Sau execution, kết quả được ghi về đích được lệnh chỉ định — gọi là commit.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      237
+    ],
+    "evidence_quote": "After execution, it writes the result of the operation back to a destination specified by the instruction, which is called the commit."
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Thành phần nào của OS chịu trách nhiệm áp dụng quy tắc truy cập, bảo vệ xác thực và phân quyền để đảm bảo an toàn?",
+    "expected_answer": "Một thành phần của OS chuyên thực thi access rules, bảo vệ authentication/authorization để đạt mức bảo mật cao.",
+    "gold_source_id": "openstax-ics-web",
+    "gold_pages": [
+      291
+    ],
+    "evidence_quote": "One component of an OS must be in charge of enforcing access rules and safeguarding authentication and authorization to provide a high level of security."
+  }
+]

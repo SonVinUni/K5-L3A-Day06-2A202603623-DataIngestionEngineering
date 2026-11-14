@@ -1,0 +1,798 @@
+{
+  "source_id": "openstax-ics-web",
+  "title": "Introduction to Computer Science (OpenStax, WEB edition)",
+  "publisher": "OpenStax / Rice University",
+  "source_url": "https://openstax.org/details/introduction-to-computer-science",
+  "local_path": "starter/data/Introduction_To_Computer_Science_-_WEB.pdf",
+  "license": "CC BY 4.0",
+  "license_note": "OpenStax nội dung cấp phép CC BY 4.0; trích dẫn ghi nguồn.",
+  "permission_note": "Sách công khai, tự tải; chỉ trích chương 5 và 6.",
+  "accessed_at": "2026-11-13",
+  "page_offset": 10,
+  "page_rule": "Đếm trang PDF có nội dung chương (loại bìa, mục lục, review và phần giữa hai chương); printed_page = pdf_page - 10.",
+  "sha256": "fd56aaf80c851e9f3b417745785ea5c832fc2911acfd2094a86f4c517fdf435a",
+  "chapters": [
+    {
+      "chapter": 5,
+      "title": "Computer Systems Organization",
+      "pdf_pages": [
+        203,
+        239
+      ],
+      "printed_pages": [
+        193,
+        229
+      ],
+      "content_pages": 37
+    },
+    {
+      "chapter": 6,
+      "title": "Operating Systems",
+      "pdf_pages": [
+        249,
+        294
+      ],
+      "printed_pages": [
+        239,
+        284
+      ],
+      "content_pages": 46
+    }
+  ],
+  "totals": {
+    "physical_pages_in_pdf": 939,
+    "content_pages": 83,
+    "chars": 246985,
+    "near_empty_pages": [],
+    "extraction_errors": []
+  },
+  "pages": [
+    {
+      "page_id": "openstax-ics-web:p203",
+      "pdf_page": 203,
+      "printed_page": 193,
+      "chapter": 5,
+      "section": "5.0",
+      "chars": 2215,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p204",
+      "pdf_page": 204,
+      "printed_page": 194,
+      "chapter": 5,
+      "section": "5.1",
+      "chars": 3417,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p205",
+      "pdf_page": 205,
+      "printed_page": 195,
+      "chapter": 5,
+      "section": "5.1",
+      "chars": 4086,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p206",
+      "pdf_page": 206,
+      "printed_page": 196,
+      "chapter": 5,
+      "section": "5.1",
+      "chars": 2481,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p207",
+      "pdf_page": 207,
+      "printed_page": 197,
+      "chapter": 5,
+      "section": "5.1",
+      "chars": 1911,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p208",
+      "pdf_page": 208,
+      "printed_page": 198,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 3126,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p209",
+      "pdf_page": 209,
+      "printed_page": 199,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 2904,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p210",
+      "pdf_page": 210,
+      "printed_page": 200,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 3570,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p211",
+      "pdf_page": 211,
+      "printed_page": 201,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 2990,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p212",
+      "pdf_page": 212,
+      "printed_page": 202,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 2625,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p213",
+      "pdf_page": 213,
+      "printed_page": 203,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 3535,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p214",
+      "pdf_page": 214,
+      "printed_page": 204,
+      "chapter": 5,
+      "section": "5.2",
+      "chars": 3323,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p215",
+      "pdf_page": 215,
+      "printed_page": 205,
+      "chapter": 5,
+      "section": "5.3",
+      "chars": 2586,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p216",
+      "pdf_page": 216,
+      "printed_page": 206,
+      "chapter": 5,
+      "section": "5.3",
+      "chars": 3559,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p217",
+      "pdf_page": 217,
+      "printed_page": 207,
+      "chapter": 5,
+      "section": "5.3",
+      "chars": 3437,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p218",
+      "pdf_page": 218,
+      "printed_page": 208,
+      "chapter": 5,
+      "section": "5.3",
+      "chars": 3085,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p219",
+      "pdf_page": 219,
+      "printed_page": 209,
+      "chapter": 5,
+      "section": "5.3",
+      "chars": 3193,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p220",
+      "pdf_page": 220,
+      "printed_page": 210,
+      "chapter": 5,
+      "section": "5.3",
+      "chars": 3323,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p221",
+      "pdf_page": 221,
+      "printed_page": 211,
+      "chapter": 5,
+      "section": "5.4",
+      "chars": 3579,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p222",
+      "pdf_page": 222,
+      "printed_page": 212,
+      "chapter": 5,
+      "section": "5.4",
+      "chars": 3216,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p223",
+      "pdf_page": 223,
+      "printed_page": 213,
+      "chapter": 5,
+      "section": "5.4",
+      "chars": 3323,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p224",
+      "pdf_page": 224,
+      "printed_page": 214,
+      "chapter": 5,
+      "section": "5.4",
+      "chars": 2936,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p225",
+      "pdf_page": 225,
+      "printed_page": 215,
+      "chapter": 5,
+      "section": "5.4",
+      "chars": 3063,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p226",
+      "pdf_page": 226,
+      "printed_page": 216,
+      "chapter": 5,
+      "section": "5.4",
+      "chars": 3524,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p227",
+      "pdf_page": 227,
+      "printed_page": 217,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 2776,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p228",
+      "pdf_page": 228,
+      "printed_page": 218,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 2826,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p229",
+      "pdf_page": 229,
+      "printed_page": 219,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 1859,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p230",
+      "pdf_page": 230,
+      "printed_page": 220,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 2419,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p231",
+      "pdf_page": 231,
+      "printed_page": 221,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 1783,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p232",
+      "pdf_page": 232,
+      "printed_page": 222,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 3214,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p233",
+      "pdf_page": 233,
+      "printed_page": 223,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 3146,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p234",
+      "pdf_page": 234,
+      "printed_page": 224,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 2931,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p235",
+      "pdf_page": 235,
+      "printed_page": 225,
+      "chapter": 5,
+      "section": "5.5",
+      "chars": 1829,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p236",
+      "pdf_page": 236,
+      "printed_page": 226,
+      "chapter": 5,
+      "section": "5.6",
+      "chars": 3571,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p237",
+      "pdf_page": 237,
+      "printed_page": 227,
+      "chapter": 5,
+      "section": "5.6",
+      "chars": 1903,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p238",
+      "pdf_page": 238,
+      "printed_page": 228,
+      "chapter": 5,
+      "section": "5.6",
+      "chars": 3822,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p239",
+      "pdf_page": 239,
+      "printed_page": 229,
+      "chapter": 5,
+      "section": "5.6",
+      "chars": 412,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p249",
+      "pdf_page": 249,
+      "printed_page": 239,
+      "chapter": 6,
+      "section": "6.0",
+      "chars": 2335,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p250",
+      "pdf_page": 250,
+      "printed_page": 240,
+      "chapter": 6,
+      "section": "6.1",
+      "chars": 2437,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p251",
+      "pdf_page": 251,
+      "printed_page": 241,
+      "chapter": 6,
+      "section": "6.1",
+      "chars": 3215,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p252",
+      "pdf_page": 252,
+      "printed_page": 242,
+      "chapter": 6,
+      "section": "6.1",
+      "chars": 2553,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p253",
+      "pdf_page": 253,
+      "printed_page": 243,
+      "chapter": 6,
+      "section": "6.1",
+      "chars": 4029,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p254",
+      "pdf_page": 254,
+      "printed_page": 244,
+      "chapter": 6,
+      "section": "6.1",
+      "chars": 3229,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p255",
+      "pdf_page": 255,
+      "printed_page": 245,
+      "chapter": 6,
+      "section": "6.1",
+      "chars": 3635,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p256",
+      "pdf_page": 256,
+      "printed_page": 246,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 2765,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p257",
+      "pdf_page": 257,
+      "printed_page": 247,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 3302,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p258",
+      "pdf_page": 258,
+      "printed_page": 248,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 2823,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p259",
+      "pdf_page": 259,
+      "printed_page": 249,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 3194,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p260",
+      "pdf_page": 260,
+      "printed_page": 250,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 2238,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p261",
+      "pdf_page": 261,
+      "printed_page": 251,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 3654,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p262",
+      "pdf_page": 262,
+      "printed_page": 252,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 2522,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p263",
+      "pdf_page": 263,
+      "printed_page": 253,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 3314,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p264",
+      "pdf_page": 264,
+      "printed_page": 254,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 2430,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p265",
+      "pdf_page": 265,
+      "printed_page": 255,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 1050,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p266",
+      "pdf_page": 266,
+      "printed_page": 256,
+      "chapter": 6,
+      "section": "6.2",
+      "chars": 2238,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p267",
+      "pdf_page": 267,
+      "printed_page": 257,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 3454,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p268",
+      "pdf_page": 268,
+      "printed_page": 258,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 3170,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p269",
+      "pdf_page": 269,
+      "printed_page": 259,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 1737,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p270",
+      "pdf_page": 270,
+      "printed_page": 260,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 3477,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p271",
+      "pdf_page": 271,
+      "printed_page": 261,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 3079,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p272",
+      "pdf_page": 272,
+      "printed_page": 262,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 3271,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p273",
+      "pdf_page": 273,
+      "printed_page": 263,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 3664,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p274",
+      "pdf_page": 274,
+      "printed_page": 264,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 2423,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p275",
+      "pdf_page": 275,
+      "printed_page": 265,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 2979,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p276",
+      "pdf_page": 276,
+      "printed_page": 266,
+      "chapter": 6,
+      "section": "6.3",
+      "chars": 4077,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p277",
+      "pdf_page": 277,
+      "printed_page": 267,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 3587,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p278",
+      "pdf_page": 278,
+      "printed_page": 268,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 2816,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p279",
+      "pdf_page": 279,
+      "printed_page": 269,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 2802,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p280",
+      "pdf_page": 280,
+      "printed_page": 270,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 1994,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p281",
+      "pdf_page": 281,
+      "printed_page": 271,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 3346,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p282",
+      "pdf_page": 282,
+      "printed_page": 272,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 1880,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p283",
+      "pdf_page": 283,
+      "printed_page": 273,
+      "chapter": 6,
+      "section": "6.4",
+      "chars": 2941,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p284",
+      "pdf_page": 284,
+      "printed_page": 274,
+      "chapter": 6,
+      "section": "6.5",
+      "chars": 3393,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p285",
+      "pdf_page": 285,
+      "printed_page": 275,
+      "chapter": 6,
+      "section": "6.5",
+      "chars": 3974,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p286",
+      "pdf_page": 286,
+      "printed_page": 276,
+      "chapter": 6,
+      "section": "6.5",
+      "chars": 3062,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p287",
+      "pdf_page": 287,
+      "printed_page": 277,
+      "chapter": 6,
+      "section": "6.5",
+      "chars": 2553,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p288",
+      "pdf_page": 288,
+      "printed_page": 278,
+      "chapter": 6,
+      "section": "6.5",
+      "chars": 3892,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p289",
+      "pdf_page": 289,
+      "printed_page": 279,
+      "chapter": 6,
+      "section": "6.6",
+      "chars": 2938,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p290",
+      "pdf_page": 290,
+      "printed_page": 280,
+      "chapter": 6,
+      "section": "6.6",
+      "chars": 4715,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p291",
+      "pdf_page": 291,
+      "printed_page": 281,
+      "chapter": 6,
+      "section": "6.6",
+      "chars": 3667,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p292",
+      "pdf_page": 292,
+      "printed_page": 282,
+      "chapter": 6,
+      "section": "6.6",
+      "chars": 3724,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p293",
+      "pdf_page": 293,
+      "printed_page": 283,
+      "chapter": 6,
+      "section": "6.6",
+      "chars": 4097,
+      "empty": false
+    },
+    {
+      "page_id": "openstax-ics-web:p294",
+      "pdf_page": 294,
+      "printed_page": 284,
+      "chapter": 6,
+      "section": "6.6",
+      "chars": 1812,
+      "empty": false
+    }
+  ]
+}

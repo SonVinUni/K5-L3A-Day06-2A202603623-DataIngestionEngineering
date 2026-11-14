@@ -1,0 +1,45 @@
+{
+  "source_id": "openstax-ics-web",
+  "title": "Introduction to Computer Science (OpenStax, WEB edition)",
+  "publisher": "OpenStax / Rice University",
+  "source_url": "https://openstax.org/details/introduction-to-computer-science",
+  "local_path": "starter/data/Introduction_To_Computer_Science_-_WEB.pdf",
+  "license": "CC BY 4.0",
+  "license_note": "OpenStax nội dung cấp phép CC BY 4.0; trích dẫn ghi nguồn.",
+  "permission_note": "Sách công khai, tự tải; chỉ trích chương 5 và 6.",
+  "accessed_at": "2026-11-13",
+  "page_offset": 10,
+  "page_rule": "Đếm trang PDF có nội dung chương (loại bìa, mục lục, review và phần giữa hai chương); printed_page = pdf_page - 10.",
+  "chapters": [
+    {
+      "chapter": 5,
+      "title": "Computer Systems Organization",
+      "pdf_start": 203,
+      "pdf_end": 239,
+      "sections": [
+        {"section": "5.0", "title": "Introduction", "printed_start": 193},
+        {"section": "5.1", "title": "Computer Systems Organization", "printed_start": 194},
+        {"section": "5.2", "title": "Computer Levels of Abstraction", "printed_start": 198},
+        {"section": "5.3", "title": "Machine-Level Information Representation", "printed_start": 205},
+        {"section": "5.4", "title": "Machine-Level Program Representation", "printed_start": 211},
+        {"section": "5.5", "title": "Memory Hierarchy", "printed_start": 217},
+        {"section": "5.6", "title": "Processor Architectures", "printed_start": 226}
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "Operating Systems",
+      "pdf_start": 249,
+      "pdf_end": 294,
+      "sections": [
+        {"section": "6.0", "title": "Introduction", "printed_start": 239},
+        {"section": "6.1", "title": "What Is an Operating System?", "printed_start": 240},
+        {"section": "6.2", "title": "Fundamental OS Concepts", "printed_start": 246},
+        {"section": "6.3", "title": "Processes and Concurrency", "printed_start": 257},
+        {"section": "6.4", "title": "Memory Management", "printed_start": 267},
+        {"section": "6.5", "title": "File Systems", "printed_start": 274},
+        {"section": "6.6", "title": "Reliability and Security", "printed_start": 279}
+      ]
+    }
+  ]
+}
