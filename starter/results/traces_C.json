@@ -14,21 +14,63 @@
         "page": 240,
         "similarity": 0.823902,
         "hit": true,
-        "text_preview": "typically required to facilitate access to all the components involved.\n6.1 What Is an Operating System?\nLearning Objectives\nBy the end of this section, you will be able to:\n• Describe an operating system and its role in computing\n• Explain the architecture of operating systems\nAn operating system ("
+        "text_preview": "typically required to facilitate access to all the components involved.\n6.1 What Is an Operating System?\nLearning Objectives\nBy the end of this section, you will be able to:\n• Describe an operating system and its role in computing\n• Explain the architecture of operating systems\nAn operating system (",
+        "metadata": {
+          "page_id": "openstax-ics-web:p250",
+          "chunk_index": 0,
+          "page": 250,
+          "chunk_chars": 500,
+          "chapter": 6,
+          "chars": 2437,
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter_title": "Operating Systems",
+          "printed_page": 240,
+          "section": "6.1",
+          "section_title": "What Is an Operating System?"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p256:4",
         "page": 246,
         "similarity": 0.818537,
         "hit": false,
-        "text_preview": "undamental OS Concepts\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain various key concepts and components of operating systems\n• Discuss the various designs of operating systems\nAn OS manages computer resources (hardware) and provides services for computer programs (s"
+        "text_preview": "undamental OS Concepts\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain various key concepts and components of operating systems\n• Discuss the various designs of operating systems\nAn OS manages computer resources (hardware) and provides services for computer programs (s",
+        "metadata": {
+          "page": 256,
+          "chapter_title": "Operating Systems",
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p256",
+          "chunk_index": 4,
+          "printed_page": 246,
+          "document_id": "openstax-ics-web",
+          "chars": 2765,
+          "chapter": 6,
+          "chunk_chars": 500
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p257:0",
         "page": 247,
         "similarity": 0.791677,
         "hit": false,
-        "text_preview": "the computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolith"
+        "text_preview": "the computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolith",
+        "metadata": {
+          "chars": 3302,
+          "page_id": "openstax-ics-web:p257",
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "section_title": "Fundamental OS Concepts",
+          "page": 257,
+          "chunk_chars": 500,
+          "section": "6.2",
+          "chunk_index": 0,
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "printed_page": 247
+        }
       }
     ],
     "filter": null
@@ -48,21 +90,63 @@
         "page": 241,
         "similarity": 0.820568,
         "hit": false,
-        "text_preview": "concurrently on the same CPU and memory operate independently without interfering with each other’s\nexecution or data. This maintains system stability and security. From a hardware point of view, the hardware is\ndesigned to enable programmers to write OSs and applications. In general, the OS mediate"
+        "text_preview": "concurrently on the same CPU and memory operate independently without interfering with each other’s\nexecution or data. This maintains system stability and security. From a hardware point of view, the hardware is\ndesigned to enable programmers to write OSs and applications. In general, the OS mediate",
+        "metadata": {
+          "section": "6.1",
+          "chapter": 6,
+          "chunk_chars": 500,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p251",
+          "page": 251,
+          "printed_page": 241,
+          "document_id": "openstax-ics-web",
+          "section_title": "What Is an Operating System?",
+          "chars": 3215,
+          "chunk_index": 0
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p254:1",
         "page": 244,
         "similarity": 0.808286,
         "hit": false,
-        "text_preview": "ype handles many different functions (from\nfile management to device management). This OS tutorial (https://openstax.org/r/76OStutorial) explains\nthe different types. As you read along, consider how much you interact with an OS over the course of a\nsingle day—or how many different OSs you interact w"
+        "text_preview": "ype handles many different functions (from\nfile management to device management). This OS tutorial (https://openstax.org/r/76OStutorial) explains\nthe different types. As you read along, consider how much you interact with an OS over the course of a\nsingle day—or how many different OSs you interact w",
+        "metadata": {
+          "page_id": "openstax-ics-web:p254",
+          "chunk_chars": 500,
+          "section_title": "What Is an Operating System?",
+          "chapter_title": "Operating Systems",
+          "page": 254,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_index": 1,
+          "printed_page": 244,
+          "chapter": 6,
+          "chars": 3229,
+          "section": "6.1",
+          "document_id": "openstax-ics-web"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p272:5",
         "page": 262,
         "similarity": 0.807562,
         "hit": false,
-        "text_preview": "nds. Choosing which process to run next is called scheduling. The activity\nof handling the removal of the running process from the CPU and the selection of another process based on a\nparticular strategy is called scheduling. In OSs, a process can be in one of several states. These states are part\nof"
+        "text_preview": "nds. Choosing which process to run next is called scheduling. The activity\nof handling the removal of the running process from the CPU and the selection of another process based on a\nparticular strategy is called scheduling. In OSs, a process can be in one of several states. These states are part\nof",
+        "metadata": {
+          "document_id": "openstax-ics-web",
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "printed_page": 262,
+          "chunk_chars": 500,
+          "page_id": "openstax-ics-web:p272",
+          "section_title": "Processes and Concurrency",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "6.3",
+          "page": 272,
+          "chunk_index": 5,
+          "chars": 3271
+        }
       }
     ],
     "filter": null
@@ -82,21 +166,63 @@
         "page": 244,
         "similarity": 0.812532,
         "hit": false,
-        "text_preview": " The operating system uses processes to manage the execution of programs,\nensuring they have the necessary resources while keeping them separate from each other to prevent\ninterference.\nSoftware applications have to be compiled and linked with system libraries before they can run as executable\nprogr"
+        "text_preview": " The operating system uses processes to manage the execution of programs,\nensuring they have the necessary resources while keeping them separate from each other to prevent\ninterference.\nSoftware applications have to be compiled and linked with system libraries before they can run as executable\nprogr",
+        "metadata": {
+          "page_id": "openstax-ics-web:p254",
+          "chars": 3229,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "page": 254,
+          "section": "6.1",
+          "section_title": "What Is an Operating System?",
+          "printed_page": 244,
+          "chapter": 6,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "document_id": "openstax-ics-web",
+          "chunk_index": 3
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p251:0",
         "page": 241,
         "similarity": 0.808047,
         "hit": false,
-        "text_preview": "concurrently on the same CPU and memory operate independently without interfering with each other’s\nexecution or data. This maintains system stability and security. From a hardware point of view, the hardware is\ndesigned to enable programmers to write OSs and applications. In general, the OS mediate"
+        "text_preview": "concurrently on the same CPU and memory operate independently without interfering with each other’s\nexecution or data. This maintains system stability and security. From a hardware point of view, the hardware is\ndesigned to enable programmers to write OSs and applications. In general, the OS mediate",
+        "metadata": {
+          "section": "6.1",
+          "chunk_chars": 500,
+          "page_id": "openstax-ics-web:p251",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chars": 3215,
+          "chunk_index": 0,
+          "document_id": "openstax-ics-web",
+          "page": 251,
+          "section_title": "What Is an Operating System?",
+          "printed_page": 241,
+          "chapter": 6,
+          "chapter_title": "Operating Systems"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p250:4",
         "page": 240,
         "similarity": 0.80614,
         "hit": false,
-        "text_preview": "omputer hardware that is\nresponsible for running them is facilitated. Applications typically do not directly manipulate the hardware;\ninstead, they must ask the OS to do this on their behalf. One of the primary goals of the OS from an\napplication software point of view is isolation. Isolation ensure"
+        "text_preview": "omputer hardware that is\nresponsible for running them is facilitated. Applications typically do not directly manipulate the hardware;\ninstead, they must ask the OS to do this on their behalf. One of the primary goals of the OS from an\napplication software point of view is isolation. Isolation ensure",
+        "metadata": {
+          "chunk_index": 4,
+          "page": 250,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p250",
+          "document_id": "openstax-ics-web",
+          "section_title": "What Is an Operating System?",
+          "chapter_title": "Operating Systems",
+          "printed_page": 240,
+          "chapter": 6,
+          "section": "6.1",
+          "chars": 2437,
+          "chunk_chars": 437
+        }
       }
     ],
     "filter": null
@@ -116,21 +242,63 @@
         "page": 222,
         "similarity": 0.828653,
         "hit": false,
-        "text_preview": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly"
+        "text_preview": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly",
+        "metadata": {
+          "chars": 3214,
+          "chapter": 5,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "printed_page": 222,
+          "section": "5.5",
+          "page_id": "openstax-ics-web:p232",
+          "page": 232,
+          "section_title": "Memory Hierarchy",
+          "chapter_title": "Computer Systems Organization",
+          "document_id": "openstax-ics-web",
+          "chunk_index": 3,
+          "chunk_chars": 500
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p233:0",
         "page": 223,
         "similarity": 0.818506,
         "hit": false,
-        "text_preview": "Both the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technol"
+        "text_preview": "Both the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technol",
+        "metadata": {
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "printed_page": 223,
+          "page_id": "openstax-ics-web:p233",
+          "document_id": "openstax-ics-web",
+          "chunk_index": 0,
+          "page": 233,
+          "chapter_title": "Computer Systems Organization",
+          "section": "5.5",
+          "chapter": 5,
+          "chunk_chars": 500,
+          "chars": 3146,
+          "section_title": "Memory Hierarchy"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p228:0",
         "page": 218,
         "similarity": 0.811047,
         "hit": false,
-        "text_preview": "Figure 5.19 The gap between processor speed and memory speed is increasing. (attribution: Copyright Rice University, OpenStax,\nunder CC BY NC-SA 4.0 license)\nIn this section, we explore memory technology. We will discuss the different technologies by which memory is\nbuilt, explain what we mean by me"
+        "text_preview": "Figure 5.19 The gap between processor speed and memory speed is increasing. (attribution: Copyright Rice University, OpenStax,\nunder CC BY NC-SA 4.0 license)\nIn this section, we explore memory technology. We will discuss the different technologies by which memory is\nbuilt, explain what we mean by me",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chapter": 5,
+          "printed_page": 218,
+          "chunk_index": 0,
+          "section": "5.5",
+          "page_id": "openstax-ics-web:p228",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page": 228,
+          "chunk_chars": 500,
+          "document_id": "openstax-ics-web",
+          "section_title": "Memory Hierarchy",
+          "chars": 2826
+        }
       }
     ],
     "filter": {
@@ -152,21 +320,63 @@
         "page": 222,
         "similarity": 0.788094,
         "hit": true,
-        "text_preview": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly"
+        "text_preview": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly",
+        "metadata": {
+          "printed_page": 222,
+          "page_id": "openstax-ics-web:p232",
+          "chapter_title": "Computer Systems Organization",
+          "section": "5.5",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter": 5,
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 500,
+          "section_title": "Memory Hierarchy",
+          "page": 232,
+          "chunk_index": 3,
+          "chars": 3214
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p231:3",
         "page": 221,
         "similarity": 0.786549,
         "hit": false,
-        "text_preview": "very instruction and every\npiece of data, the overall system performance is very low; therefore, computer designers speed things up by\nusing a faster technology together with the DRAM. This faster technology, technology 1 in Figure 5.20 is called\nthe SRAM.\n5.5 • Memory Hierarchy 221"
+        "text_preview": "very instruction and every\npiece of data, the overall system performance is very low; therefore, computer designers speed things up by\nusing a faster technology together with the DRAM. This faster technology, technology 1 in Figure 5.20 is called\nthe SRAM.\n5.5 • Memory Hierarchy 221",
+        "metadata": {
+          "chunk_index": 3,
+          "chapter_title": "Computer Systems Organization",
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chars": 1783,
+          "page_id": "openstax-ics-web:p231",
+          "page": 231,
+          "printed_page": 221,
+          "chapter": 5,
+          "section_title": "Memory Hierarchy",
+          "section": "5.5",
+          "chunk_chars": 283
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p232:0",
         "page": 222,
         "similarity": 0.78028,
         "hit": false,
-        "text_preview": "Memory: SRAM\nThere are several reasons for the slow speed of getting the data from DRAM to processor. One is the much\nslower speed of DRAM technology relative to the processor. The second reason is that going off the chip that\ncontains the processor and to the bus to reach the DRAM memory is a slow "
+        "text_preview": "Memory: SRAM\nThere are several reasons for the slow speed of getting the data from DRAM to processor. One is the much\nslower speed of DRAM technology relative to the processor. The second reason is that going off the chip that\ncontains the processor and to the bus to reach the DRAM memory is a slow ",
+        "metadata": {
+          "chars": 3214,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p232",
+          "printed_page": 222,
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 500,
+          "chapter": 5,
+          "chapter_title": "Computer Systems Organization",
+          "section": "5.5",
+          "chunk_index": 0,
+          "page": 232,
+          "section_title": "Memory Hierarchy"
+        }
       }
     ],
     "filter": {
@@ -188,21 +398,63 @@
         "page": 219,
         "similarity": 0.82264,
         "hit": true,
-        "text_preview": "echnology 1 Static random access memory (SRAM)\nCache memory\n• Volatile\n• Very fast\n• Expensive\n• Small in size (from few KB to few MB)\nTechnology 2 Dynamic random access memory (DRAM)\nMain memory\n• Volatile\n• Fast\n• Less expensive\n• Average in size (1GB to 128GB)\nTable 5.3 Technologies Used for Stor"
+        "text_preview": "echnology 1 Static random access memory (SRAM)\nCache memory\n• Volatile\n• Very fast\n• Expensive\n• Small in size (from few KB to few MB)\nTechnology 2 Dynamic random access memory (DRAM)\nMain memory\n• Volatile\n• Fast\n• Less expensive\n• Average in size (1GB to 128GB)\nTable 5.3 Technologies Used for Stor",
+        "metadata": {
+          "chars": 1859,
+          "page": 229,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p229",
+          "section": "5.5",
+          "section_title": "Memory Hierarchy",
+          "printed_page": 219,
+          "chunk_index": 3,
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 359,
+          "chapter": 5,
+          "chapter_title": "Computer Systems Organization"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p233:1",
         "page": 223,
         "similarity": 0.816311,
         "hit": false,
-        "text_preview": "cs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologi"
+        "text_preview": "cs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologi",
+        "metadata": {
+          "section_title": "Memory Hierarchy",
+          "page": 233,
+          "document_id": "openstax-ics-web",
+          "section": "5.5",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_index": 1,
+          "printed_page": 223,
+          "page_id": "openstax-ics-web:p233",
+          "chunk_chars": 500,
+          "chapter": 5,
+          "chapter_title": "Computer Systems Organization",
+          "chars": 3146
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p232:1",
         "page": 222,
         "similarity": 0.810995,
         "hit": false,
-        "text_preview": "puter’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it needs four to six transistors, which is much larger"
+        "text_preview": "puter’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it needs four to six transistors, which is much larger",
+        "metadata": {
+          "page": 232,
+          "chapter_title": "Computer Systems Organization",
+          "page_id": "openstax-ics-web:p232",
+          "section": "5.5",
+          "printed_page": 222,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_index": 1,
+          "chunk_chars": 500,
+          "chapter": 5,
+          "chars": 3214,
+          "section_title": "Memory Hierarchy",
+          "document_id": "openstax-ics-web"
+        }
       }
     ],
     "filter": null
@@ -222,21 +474,63 @@
         "page": 227,
         "similarity": 0.827507,
         "hit": true,
-        "text_preview": "econd, once the fetch phase\nfinishes fetching the first instruction and hands it to the decode phase, the fetch phase hardware is now free\nto fetch the second instruction. By the time the decode phase is done with instruction 1 and hands it to the\nissue phase, the fetch phase hands to it instruction"
+        "text_preview": "econd, once the fetch phase\nfinishes fetching the first instruction and hands it to the decode phase, the fetch phase hardware is now free\nto fetch the second instruction. By the time the decode phase is done with instruction 1 and hands it to the\nissue phase, the fetch phase hands to it instruction",
+        "metadata": {
+          "chars": 1903,
+          "chapter": 5,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter_title": "Computer Systems Organization",
+          "section_title": "Processor Architectures",
+          "page_id": "openstax-ics-web:p237",
+          "chunk_chars": 403,
+          "page": 237,
+          "printed_page": 227,
+          "section": "5.6",
+          "chunk_index": 3,
+          "document_id": "openstax-ics-web"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p237:2",
         "page": 227,
         "similarity": 0.815294,
         "hit": false,
-        "text_preview": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollow"
+        "text_preview": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollow",
+        "metadata": {
+          "document_id": "openstax-ics-web",
+          "page": 237,
+          "chunk_chars": 500,
+          "section_title": "Processor Architectures",
+          "page_id": "openstax-ics-web:p237",
+          "chunk_index": 2,
+          "printed_page": 227,
+          "section": "5.6",
+          "chapter_title": "Computer Systems Organization",
+          "chars": 1903,
+          "chapter": 5,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p238:1",
         "page": 228,
         "similarity": 0.761216,
         "hit": false,
-        "text_preview": "d. The other phases must be modified to fetch/decode/\nissue several instructions at the same time, which is referred to as capability as shown in Figure 5.26(c).\nAnother type of parallelism is superscalar capability, which is an execution unit that allows several\ninstructions to be executed at the s"
+        "text_preview": "d. The other phases must be modified to fetch/decode/\nissue several instructions at the same time, which is referred to as capability as shown in Figure 5.26(c).\nAnother type of parallelism is superscalar capability, which is an execution unit that allows several\ninstructions to be executed at the s",
+        "metadata": {
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "5.6",
+          "chars": 3822,
+          "page": 238,
+          "section_title": "Processor Architectures",
+          "chapter": 5,
+          "chapter_title": "Computer Systems Organization",
+          "printed_page": 228,
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 500,
+          "page_id": "openstax-ics-web:p238",
+          "chunk_index": 1
+        }
       }
     ],
     "filter": null
@@ -256,21 +550,63 @@
         "page": 226,
         "similarity": 0.812607,
         "hit": false,
-        "text_preview": "ces such as adders, multipliers, and\nregisters, then more transistors would mean more features implemented in the processor, hopefully leading to\nbetter performance. More transistors inside the processor’s chip meant that transistors would get smaller in\nsize, and smaller transistors would mean fast"
+        "text_preview": "ces such as adders, multipliers, and\nregisters, then more transistors would mean more features implemented in the processor, hopefully leading to\nbetter performance. More transistors inside the processor’s chip meant that transistors would get smaller in\nsize, and smaller transistors would mean fast",
+        "metadata": {
+          "document_id": "openstax-ics-web",
+          "printed_page": 226,
+          "chunk_chars": 500,
+          "section_title": "Processor Architectures",
+          "section": "5.6",
+          "chars": 3571,
+          "page": 236,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_index": 6,
+          "page_id": "openstax-ics-web:p236",
+          "chapter_title": "Computer Systems Organization",
+          "chapter": 5
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p222:1",
         "page": 212,
         "similarity": 0.800946,
         "hit": false,
-        "text_preview": "can access (for n-bit machines, the processor can access 2n bytes of memory). The ISA also evolves\nin parallel to incorporate the larger registers (hence the move from IA32 to x86-64) and the computations with\nlarger numbers. Second, we can see the tremendous increase in transistors in each generati"
+        "text_preview": "can access (for n-bit machines, the processor can access 2n bytes of memory). The ISA also evolves\nin parallel to incorporate the larger registers (hence the move from IA32 to x86-64) and the computations with\nlarger numbers. Second, we can see the tremendous increase in transistors in each generati",
+        "metadata": {
+          "chars": 3216,
+          "page": 222,
+          "chapter": 5,
+          "document_id": "openstax-ics-web",
+          "page_id": "openstax-ics-web:p222",
+          "chunk_index": 1,
+          "chapter_title": "Computer Systems Organization",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500,
+          "section": "5.4",
+          "section_title": "Machine-Level Program Representation",
+          "printed_page": 212
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p227:4",
         "page": 217,
         "similarity": 0.784909,
         "hit": false,
-        "text_preview": "d data is not fast enough. Everything worked well in the early days of computing, from the\n1940s until the early 1990s, and then computing hit a wall—a memory wall.\nResearchers in industry and academia achieved good leaps in performance for processors by innovating ways\nto use transistors provided t"
+        "text_preview": "d data is not fast enough. Everything worked well in the early days of computing, from the\n1940s until the early 1990s, and then computing hit a wall—a memory wall.\nResearchers in industry and academia achieved good leaps in performance for processors by innovating ways\nto use transistors provided t",
+        "metadata": {
+          "printed_page": 217,
+          "page_id": "openstax-ics-web:p227",
+          "section_title": "Memory Hierarchy",
+          "document_id": "openstax-ics-web",
+          "chars": 2776,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "5.5",
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 4,
+          "chapter": 5,
+          "page": 227,
+          "chunk_chars": 500
+        }
       }
     ],
     "filter": null
@@ -290,21 +626,63 @@
         "page": 227,
         "similarity": 0.785061,
         "hit": false,
-        "text_preview": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollow"
+        "text_preview": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollow",
+        "metadata": {
+          "chapter": 5,
+          "section_title": "Processor Architectures",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "printed_page": 227,
+          "chunk_index": 2,
+          "page_id": "openstax-ics-web:p237",
+          "chunk_chars": 500,
+          "document_id": "openstax-ics-web",
+          "page": 237,
+          "chapter_title": "Computer Systems Organization",
+          "chars": 1903,
+          "section": "5.6"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p238:0",
         "page": 228,
         "similarity": 0.761397,
         "hit": false,
-        "text_preview": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the progr"
+        "text_preview": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the progr",
+        "metadata": {
+          "printed_page": 228,
+          "chapter_title": "Computer Systems Organization",
+          "section_title": "Processor Architectures",
+          "chapter": 5,
+          "page_id": "openstax-ics-web:p238",
+          "chunk_index": 0,
+          "chars": 3822,
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 500,
+          "page": 238,
+          "section": "5.6",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p223:5",
         "page": 213,
         "similarity": 0.759883,
         "hit": false,
-        "text_preview": "ta (the two numbers) and the\ncommand for addition (instruction), which is why there is a single directional bus from memory to CPU for\ngetting instructions from the memory.\n• The memory holds several things: data, the instructions of the programs (shown as “Text” in Figure 5.17),\nsome data needed by"
+        "text_preview": "ta (the two numbers) and the\ncommand for addition (instruction), which is why there is a single directional bus from memory to CPU for\ngetting instructions from the memory.\n• The memory holds several things: data, the instructions of the programs (shown as “Text” in Figure 5.17),\nsome data needed by",
+        "metadata": {
+          "printed_page": 213,
+          "chunk_chars": 500,
+          "chars": 3323,
+          "chapter_title": "Computer Systems Organization",
+          "page": 223,
+          "document_id": "openstax-ics-web",
+          "section": "5.4",
+          "section_title": "Machine-Level Program Representation",
+          "chapter": 5,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_index": 5,
+          "page_id": "openstax-ics-web:p223"
+        }
       }
     ],
     "filter": null
@@ -324,21 +702,63 @@
         "page": 244,
         "similarity": 0.816332,
         "hit": false,
-        "text_preview": "s running; there is usually either a system\nprogram/operating system or an application program running as well. Any program running on top of the OS\nis considered to be a process from the OS standpoint. It includes the program code, its current activity\nrepresented by the program counter, and a set "
+        "text_preview": "s running; there is usually either a system\nprogram/operating system or an application program running as well. Any program running on top of the OS\nis considered to be a process from the OS standpoint. It includes the program code, its current activity\nrepresented by the program counter, and a set ",
+        "metadata": {
+          "document_id": "openstax-ics-web",
+          "chapter": 6,
+          "section_title": "What Is an Operating System?",
+          "section": "6.1",
+          "page": 254,
+          "chapter_title": "Operating Systems",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p254",
+          "chunk_index": 2,
+          "chars": 3229,
+          "printed_page": 244,
+          "chunk_chars": 500
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p267:5",
         "page": 257,
         "similarity": 0.804357,
         "hit": true,
-        "text_preview": "cessors are executing instructions simultaneously is concurrent processing. In this module, we learn\nabout processes and concurrency by digging down into process management and inter-process\ncommunication (IPC), threads, scheduling and dispatching, and synchronization.\nProcess\nTo review, a process i"
+        "text_preview": "cessors are executing instructions simultaneously is concurrent processing. In this module, we learn\nabout processes and concurrency by digging down into process management and inter-process\ncommunication (IPC), threads, scheduling and dispatching, and synchronization.\nProcess\nTo review, a process i",
+        "metadata": {
+          "section": "6.3",
+          "chunk_index": 5,
+          "chunk_chars": 500,
+          "printed_page": 257,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p267",
+          "section_title": "Processes and Concurrency",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter": 6,
+          "document_id": "openstax-ics-web",
+          "chars": 3454,
+          "page": 267
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p257:4",
         "page": 247,
         "similarity": 0.801037,
         "hit": false,
-        "text_preview": "ation once it is launched? The direct answer is the OS. An OS executes\nmany kinds of activities starting from users’ programs, background jobs or scripts, to system programs. There\nare many system programs such as print managers, name servers, and file servers. Each one of these\nprograms or activiti"
+        "text_preview": "ation once it is launched? The direct answer is the OS. An OS executes\nmany kinds of activities starting from users’ programs, background jobs or scripts, to system programs. There\nare many system programs such as print managers, name servers, and file servers. Each one of these\nprograms or activiti",
+        "metadata": {
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500,
+          "chars": 3302,
+          "chapter_title": "Operating Systems",
+          "printed_page": 247,
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "page_id": "openstax-ics-web:p257",
+          "document_id": "openstax-ics-web",
+          "chunk_index": 4,
+          "chapter": 6,
+          "page": 257
+        }
       }
     ],
     "filter": null
@@ -358,21 +778,63 @@
         "page": 244,
         "similarity": 0.760892,
         "hit": false,
-        "text_preview": "s running; there is usually either a system\nprogram/operating system or an application program running as well. Any program running on top of the OS\nis considered to be a process from the OS standpoint. It includes the program code, its current activity\nrepresented by the program counter, and a set "
+        "text_preview": "s running; there is usually either a system\nprogram/operating system or an application program running as well. Any program running on top of the OS\nis considered to be a process from the OS standpoint. It includes the program code, its current activity\nrepresented by the program counter, and a set ",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_index": 2,
+          "section_title": "What Is an Operating System?",
+          "document_id": "openstax-ics-web",
+          "section": "6.1",
+          "printed_page": 244,
+          "chunk_chars": 500,
+          "page": 254,
+          "chars": 3229,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p254",
+          "chapter": 6
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p258:1",
         "page": 248,
         "similarity": 0.754493,
         "hit": false,
-        "text_preview": "problem on your own before seeking help or a repair?\nProcesses vs. Threads\nAs we have learned, a process is an active program. A thread is a smaller or lightweight portion of a process\nthat is managed independently. Table 6.2 shows a comparison between the process and the thread.\nAttribute Process T"
+        "text_preview": "problem on your own before seeking help or a repair?\nProcesses vs. Threads\nAs we have learned, a process is an active program. A thread is a smaller or lightweight portion of a process\nthat is managed independently. Table 6.2 shows a comparison between the process and the thread.\nAttribute Process T",
+        "metadata": {
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "chunk_index": 1,
+          "printed_page": 248,
+          "page": 258,
+          "chapter": 6,
+          "document_id": "openstax-ics-web",
+          "chars": 2823,
+          "section": "6.2",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p258",
+          "section_title": "Fundamental OS Concepts"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p267:5",
         "page": 257,
         "similarity": 0.751496,
         "hit": false,
-        "text_preview": "cessors are executing instructions simultaneously is concurrent processing. In this module, we learn\nabout processes and concurrency by digging down into process management and inter-process\ncommunication (IPC), threads, scheduling and dispatching, and synchronization.\nProcess\nTo review, a process i"
+        "text_preview": "cessors are executing instructions simultaneously is concurrent processing. In this module, we learn\nabout processes and concurrency by digging down into process management and inter-process\ncommunication (IPC), threads, scheduling and dispatching, and synchronization.\nProcess\nTo review, a process i",
+        "metadata": {
+          "printed_page": 257,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "document_id": "openstax-ics-web",
+          "chapter_title": "Operating Systems",
+          "page": 267,
+          "chars": 3454,
+          "page_id": "openstax-ics-web:p267",
+          "chunk_chars": 500,
+          "chunk_index": 5,
+          "section": "6.3",
+          "section_title": "Processes and Concurrency",
+          "chapter": 6
+        }
       }
     ],
     "filter": null
@@ -392,21 +854,63 @@
         "page": 272,
         "similarity": 0.811014,
         "hit": true,
-        "text_preview": "stax.org/r/76virtmem) to investigate this\nquestion.\nDemand Paging\nThe storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging. Virtual memory presented a seemingly infinite amount of memory to the\nrunning process, but what happ"
+        "text_preview": "stax.org/r/76virtmem) to investigate this\nquestion.\nDemand Paging\nThe storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging. Virtual memory presented a seemingly infinite amount of memory to the\nrunning process, but what happ",
+        "metadata": {
+          "chunk_index": 1,
+          "page": 282,
+          "section_title": "Memory Management",
+          "section": "6.4",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chars": 1880,
+          "printed_page": 272,
+          "chunk_chars": 500,
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "document_id": "openstax-ics-web",
+          "page_id": "openstax-ics-web:p282"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p283:3",
         "page": 273,
         "similarity": 0.808251,
         "hit": false,
-        "text_preview": "ge replacement, one page in the (full) DRAM is swapped to disk while the\nrequested page is brought into DRAM. However, if too many processes need access to a lot of memory back\nand forth between DRAM and disk, this causes problems. For example, each page fault causes one of the\nactive pages to be mo"
+        "text_preview": "ge replacement, one page in the (full) DRAM is swapped to disk while the\nrequested page is brought into DRAM. However, if too many processes need access to a lot of memory back\nand forth between DRAM and disk, this causes problems. For example, each page fault causes one of the\nactive pages to be mo",
+        "metadata": {
+          "printed_page": 273,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter_title": "Operating Systems",
+          "document_id": "openstax-ics-web",
+          "section_title": "Memory Management",
+          "chars": 2941,
+          "section": "6.4",
+          "chapter": 6,
+          "page_id": "openstax-ics-web:p283",
+          "page": 283,
+          "chunk_index": 3,
+          "chunk_chars": 500
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p283:2",
         "page": 273,
         "similarity": 0.802595,
         "hit": false,
-        "text_preview": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loadi"
+        "text_preview": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loadi",
+        "metadata": {
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "document_id": "openstax-ics-web",
+          "page": 283,
+          "printed_page": 273,
+          "section_title": "Memory Management",
+          "chapter_title": "Operating Systems",
+          "section": "6.4",
+          "chars": 2941,
+          "chunk_index": 2,
+          "chunk_chars": 500,
+          "chapter": 6,
+          "page_id": "openstax-ics-web:p283"
+        }
       }
     ],
     "filter": null
@@ -426,21 +930,63 @@
         "page": 275,
         "similarity": 0.81016,
         "hit": true,
-        "text_preview": "crashes and hardware failures is called its reliability. In addition to improving reliability, a file system should\nguarantee a high level of protection by maintaining isolation between users and controlling the sharing of\nresources.\nDisk Devices\nWhile file systems are a layer of abstraction that pr"
+        "text_preview": "crashes and hardware failures is called its reliability. In addition to improving reliability, a file system should\nguarantee a high level of protection by maintaining isolation between users and controlling the sharing of\nresources.\nDisk Devices\nWhile file systems are a layer of abstraction that pr",
+        "metadata": {
+          "section_title": "File Systems",
+          "page_id": "openstax-ics-web:p285",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "document_id": "openstax-ics-web",
+          "chapter": 6,
+          "section": "6.5",
+          "chunk_chars": 500,
+          "chunk_index": 0,
+          "page": 285,
+          "chapter_title": "Operating Systems",
+          "printed_page": 275,
+          "chars": 3974
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p284:2",
         "page": 274,
         "similarity": 0.801647,
         "hit": false,
-        "text_preview": " resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain features of various file systems\n• Discuss file system structures and layers\nIn this module, "
+        "text_preview": " resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain features of various file systems\n• Discuss file system structures and layers\nIn this module, ",
+        "metadata": {
+          "section_title": "File Systems",
+          "page_id": "openstax-ics-web:p284",
+          "chars": 3393,
+          "section": "6.5",
+          "chunk_index": 2,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page": 284,
+          "printed_page": 274,
+          "chapter_title": "Operating Systems",
+          "chapter": 6,
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 500
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p286:0",
         "page": 276,
         "similarity": 0.794572,
         "hit": false,
-        "text_preview": "Figure 6.33 In file versioning, the OS saves all copies of a file (in this case, a doc or document file) . (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nFile systems are concerned with lower-level characteristics such as performance and failure resilience. Both\npe"
+        "text_preview": "Figure 6.33 In file versioning, the OS saves all copies of a file (in this case, a doc or document file) . (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nFile systems are concerned with lower-level characteristics such as performance and failure resilience. Both\npe",
+        "metadata": {
+          "section": "6.5",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chars": 3062,
+          "chapter_title": "Operating Systems",
+          "page": 286,
+          "section_title": "File Systems",
+          "chunk_chars": 500,
+          "chunk_index": 0,
+          "chapter": 6,
+          "document_id": "openstax-ics-web",
+          "page_id": "openstax-ics-web:p286",
+          "printed_page": 276
+        }
       }
     ],
     "filter": null
@@ -460,21 +1006,63 @@
         "page": 281,
         "similarity": 0.81448,
         "hit": true,
-        "text_preview": "ll in size. The security kernel is a substitute\napproach that is composed of hardware and software and serves as the OS’s inner protection layer. Generally,\nany kind of management such as memory and interrupt management are provided by a security kernel.\nLINK TO LEARNING\nEvery once in a while, you m"
+        "text_preview": "ll in size. The security kernel is a substitute\napproach that is composed of hardware and software and serves as the OS’s inner protection layer. Generally,\nany kind of management such as memory and interrupt management are provided by a security kernel.\nLINK TO LEARNING\nEvery once in a while, you m",
+        "metadata": {
+          "page": 291,
+          "document_id": "openstax-ics-web",
+          "chapter": 6,
+          "section_title": "Reliability and Security",
+          "page_id": "openstax-ics-web:p291",
+          "section": "6.6",
+          "printed_page": 281,
+          "chars": 3667,
+          "chunk_index": 1,
+          "chapter_title": "Operating Systems",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p262:3",
         "page": 252,
         "similarity": 0.775835,
         "hit": false,
-        "text_preview": "structure of the OS. As you may recall, an OS consists of\nmany core components but also includes other components such as privileged and non-privileged system\nprograms. In an OS, it is important to have dual mode operations to ensure a high level of security and\nauthority. The dual mode is responsib"
+        "text_preview": "structure of the OS. As you may recall, an OS consists of\nmany core components but also includes other components such as privileged and non-privileged system\nprograms. In an OS, it is important to have dual mode operations to ensure a high level of security and\nauthority. The dual mode is responsib",
+        "metadata": {
+          "section_title": "Fundamental OS Concepts",
+          "chunk_index": 3,
+          "page_id": "openstax-ics-web:p262",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter": 6,
+          "document_id": "openstax-ics-web",
+          "page": 262,
+          "printed_page": 252,
+          "chars": 2522,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "section": "6.2"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p265:1",
         "page": 255,
         "similarity": 0.766409,
         "hit": false,
-        "text_preview": "vilege, and greater ease of extension\nand customization. However, performance is generally poor due to user and kernel boundary crossings, which\nrepresent a security risk when the kernel code operates on the data.\nThe first microkernel system was Hydra (CMU, 1970), followed by Mach (CMU), Chorus (Fr"
+        "text_preview": "vilege, and greater ease of extension\nand customization. However, performance is generally poor due to user and kernel boundary crossings, which\nrepresent a security risk when the kernel code operates on the data.\nThe first microkernel system was Hydra (CMU, 1970), followed by Mach (CMU), Chorus (Fr",
+        "metadata": {
+          "chars": 1050,
+          "chunk_chars": 500,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "printed_page": 255,
+          "chapter": 6,
+          "page": 265,
+          "page_id": "openstax-ics-web:p265",
+          "chunk_index": 1,
+          "chapter_title": "Operating Systems",
+          "section": "6.2",
+          "document_id": "openstax-ics-web",
+          "section_title": "Fundamental OS Concepts"
+        }
       }
     ],
     "filter": null
@@ -494,21 +1082,63 @@
         "page": 273,
         "similarity": 0.840665,
         "hit": false,
-        "text_preview": "ram to the OS to demand the requested page to the main\nmemory. OS finds a free page frame in memory, loads the page from the backing store to the main memory,\nand resumes execution of the thread. The CPU has special hardware to assist in resuming execution after a\npage fault.\nGiven that access to th"
+        "text_preview": "ram to the OS to demand the requested page to the main\nmemory. OS finds a free page frame in memory, loads the page from the backing store to the main memory,\nand resumes execution of the thread. The CPU has special hardware to assist in resuming execution after a\npage fault.\nGiven that access to th",
+        "metadata": {
+          "chunk_index": 1,
+          "page_id": "openstax-ics-web:p283",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "6.4",
+          "chars": 2941,
+          "chapter": 6,
+          "page": 283,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "document_id": "openstax-ics-web",
+          "section_title": "Memory Management",
+          "printed_page": 273
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p283:3",
         "page": 273,
         "similarity": 0.824294,
         "hit": false,
-        "text_preview": "ge replacement, one page in the (full) DRAM is swapped to disk while the\nrequested page is brought into DRAM. However, if too many processes need access to a lot of memory back\nand forth between DRAM and disk, this causes problems. For example, each page fault causes one of the\nactive pages to be mo"
+        "text_preview": "ge replacement, one page in the (full) DRAM is swapped to disk while the\nrequested page is brought into DRAM. However, if too many processes need access to a lot of memory back\nand forth between DRAM and disk, this causes problems. For example, each page fault causes one of the\nactive pages to be mo",
+        "metadata": {
+          "document_id": "openstax-ics-web",
+          "chunk_index": 3,
+          "chapter": 6,
+          "chunk_chars": 500,
+          "section_title": "Memory Management",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "6.4",
+          "page_id": "openstax-ics-web:p283",
+          "chapter_title": "Operating Systems",
+          "chars": 2941,
+          "page": 283,
+          "printed_page": 273
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p283:2",
         "page": 273,
         "similarity": 0.812749,
         "hit": false,
-        "text_preview": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loadi"
+        "text_preview": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loadi",
+        "metadata": {
+          "printed_page": 273,
+          "chars": 2941,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p283",
+          "section": "6.4",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500,
+          "chapter": 6,
+          "chunk_index": 2,
+          "section_title": "Memory Management",
+          "document_id": "openstax-ics-web",
+          "page": 283
+        }
       }
     ],
     "filter": null
@@ -528,21 +1158,63 @@
         "page": 240,
         "similarity": 0.817191,
         "hit": true,
-        "text_preview": " to operate any computerized device.\nIntroduction\nThere are many operating systems (OSs), and anyone using a modern computer is using one of them. The\ntypical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Figure\n6.2). Microsoft Windows is a popular operatin"
+        "text_preview": " to operate any computerized device.\nIntroduction\nThere are many operating systems (OSs), and anyone using a modern computer is using one of them. The\ntypical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Figure\n6.2). Microsoft Windows is a popular operatin",
+        "metadata": {
+          "page_id": "openstax-ics-web:p250",
+          "chunk_index": 1,
+          "chapter_title": "Operating Systems",
+          "printed_page": 240,
+          "section_title": "What Is an Operating System?",
+          "chapter": 6,
+          "page": 250,
+          "section": "6.1",
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500,
+          "chars": 2437
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p249:0",
         "page": 239,
         "similarity": 0.814395,
         "hit": false,
-        "text_preview": "Figure 6.1 Operating systems operate on many computers and devices, which means that when they need an update (due to an\nerror or virus), all those systems need the same fix. (credit: modification of “Windows Blue Screen on room full of computers,” by\nGrj23/Wikimedia.com, CC0)\nChapter Outline\n6.1 Wh"
+        "text_preview": "Figure 6.1 Operating systems operate on many computers and devices, which means that when they need an update (due to an\nerror or virus), all those systems need the same fix. (credit: modification of “Windows Blue Screen on room full of computers,” by\nGrj23/Wikimedia.com, CC0)\nChapter Outline\n6.1 Wh",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "printed_page": 239,
+          "chunk_index": 0,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p249",
+          "section": "6.0",
+          "document_id": "openstax-ics-web",
+          "chars": 2335,
+          "chapter": 6,
+          "page": 249,
+          "chunk_chars": 500,
+          "section_title": "Introduction"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p257:2",
         "page": 247,
         "similarity": 0.798107,
         "hit": false,
-        "text_preview": "aphical user interface (GUI), which allows users to\ninteract with electronic devices through graphical icons and visual indicators (e.g., Windows), or a command\nline (e.g., DOS). For example, in Figure 6.5, the OS interface would be the window into which the Chrome\nbrowser opens.\nFigure 6.5 The oper"
+        "text_preview": "aphical user interface (GUI), which allows users to\ninteract with electronic devices through graphical icons and visual indicators (e.g., Windows), or a command\nline (e.g., DOS). For example, in Figure 6.5, the OS interface would be the window into which the Chrome\nbrowser opens.\nFigure 6.5 The oper",
+        "metadata": {
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter_title": "Operating Systems",
+          "section": "6.2",
+          "page": 257,
+          "chapter": 6,
+          "section_title": "Fundamental OS Concepts",
+          "page_id": "openstax-ics-web:p257",
+          "document_id": "openstax-ics-web",
+          "chars": 3302,
+          "printed_page": 247,
+          "chunk_index": 2,
+          "chunk_chars": 500
+        }
       }
     ],
     "filter": {
@@ -564,21 +1236,63 @@
         "page": 204,
         "similarity": 0.816798,
         "hit": true,
-        "text_preview": "has more privileges in the computer system.\nThe operating system (OS), shown in Figure 5.10 is the only piece of software that can directly access the\nhardware. Any other program that needs to access the hardware, such as printing something, must talk to the\nOS, and the OS achieves the requested tas"
+        "text_preview": "has more privileges in the computer system.\nThe operating system (OS), shown in Figure 5.10 is the only piece of software that can directly access the\nhardware. Any other program that needs to access the hardware, such as printing something, must talk to the\nOS, and the OS achieves the requested tas",
+        "metadata": {
+          "chunk_index": 0,
+          "page_id": "openstax-ics-web:p214",
+          "chapter_title": "Computer Systems Organization",
+          "section_title": "Computer Levels of Abstraction",
+          "chunk_chars": 500,
+          "section": "5.2",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "printed_page": 204,
+          "document_id": "openstax-ics-web",
+          "page": 214,
+          "chars": 3323,
+          "chapter": 5
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p214:1",
         "page": 204,
         "similarity": 0.744574,
         "hit": false,
-        "text_preview": "y (a program cannot affect a piece of hardware, which would then affect other\nprograms). In order for the OS to do its job efficiently, it stores the data and programs on disk in an organized\nway using a file system. The file system helps organize files so that it is easier to find them when needed."
+        "text_preview": "y (a program cannot affect a piece of hardware, which would then affect other\nprograms). In order for the OS to do its job efficiently, it stores the data and programs on disk in an organized\nway using a file system. The file system helps organize files so that it is easier to find them when needed.",
+        "metadata": {
+          "page_id": "openstax-ics-web:p214",
+          "chars": 3323,
+          "chunk_chars": 500,
+          "chapter_title": "Computer Systems Organization",
+          "document_id": "openstax-ics-web",
+          "chunk_index": 1,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter": 5,
+          "section": "5.2",
+          "page": 214,
+          "section_title": "Computer Levels of Abstraction",
+          "printed_page": 204
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p210:6",
         "page": 200,
         "similarity": 0.742987,
         "hit": false,
-        "text_preview": "ow do we deal with these conflicting requirements for\nprogrammers and computers? The answer is compilers.\nA compiler is a piece of software that takes a program written in a given HLL and generates another program\nthat does the same task as the initial program but is written in a language that is mu"
+        "text_preview": "ow do we deal with these conflicting requirements for\nprogrammers and computers? The answer is compilers.\nA compiler is a piece of software that takes a program written in a given HLL and generates another program\nthat does the same task as the initial program but is written in a language that is mu",
+        "metadata": {
+          "section": "5.2",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section_title": "Computer Levels of Abstraction",
+          "document_id": "openstax-ics-web",
+          "chunk_index": 6,
+          "printed_page": 200,
+          "chunk_chars": 500,
+          "chars": 3570,
+          "chapter_title": "Computer Systems Organization",
+          "chapter": 5,
+          "page": 210,
+          "page_id": "openstax-ics-web:p210"
+        }
       }
     ],
     "filter": {
@@ -600,21 +1314,63 @@
         "page": 222,
         "similarity": 0.840073,
         "hit": false,
-        "text_preview": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly"
+        "text_preview": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly",
+        "metadata": {
+          "section_title": "Memory Hierarchy",
+          "printed_page": 222,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500,
+          "chars": 3214,
+          "page_id": "openstax-ics-web:p232",
+          "chapter": 5,
+          "document_id": "openstax-ics-web",
+          "section": "5.5",
+          "page": 232,
+          "chunk_index": 3,
+          "chapter_title": "Computer Systems Organization"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p232:2",
         "page": 222,
         "similarity": 0.826875,
         "hit": false,
-        "text_preview": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, O"
+        "text_preview": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, O",
+        "metadata": {
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_index": 2,
+          "chunk_chars": 500,
+          "chars": 3214,
+          "printed_page": 222,
+          "chapter": 5,
+          "document_id": "openstax-ics-web",
+          "page": 232,
+          "page_id": "openstax-ics-web:p232",
+          "section": "5.5",
+          "section_title": "Memory Hierarchy",
+          "chapter_title": "Computer Systems Organization"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p232:4",
         "page": 222,
         "similarity": 0.814663,
         "hit": false,
-        "text_preview": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache"
+        "text_preview": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache",
+        "metadata": {
+          "section": "5.5",
+          "chunk_chars": 500,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section_title": "Memory Hierarchy",
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 4,
+          "page_id": "openstax-ics-web:p232",
+          "chars": 3214,
+          "page": 232,
+          "printed_page": 222,
+          "document_id": "openstax-ics-web",
+          "chapter": 5
+        }
       }
     ],
     "filter": {
@@ -636,21 +1392,63 @@
         "page": 268,
         "similarity": 0.862654,
         "hit": false,
-        "text_preview": " not finish the job, the CPU\nshifts it out to the end of the processes queue. For example, assume we have three processes P1 with\nexecution time 3 ms, P2 with execution time 4 ms, and P3 with execution time 2 ms, and a time slice of 2 ms.\nFigure 6.26 illustrates how the CPU manages the processing us"
+        "text_preview": " not finish the job, the CPU\nshifts it out to the end of the processes queue. For example, assume we have three processes P1 with\nexecution time 3 ms, P2 with execution time 4 ms, and P3 with execution time 2 ms, and a time slice of 2 ms.\nFigure 6.26 illustrates how the CPU manages the processing us",
+        "metadata": {
+          "page_id": "openstax-ics-web:p278",
+          "chapter_title": "Operating Systems",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chunk_chars": 500,
+          "chapter": 6,
+          "printed_page": 268,
+          "section_title": "Memory Management",
+          "chunk_index": 2,
+          "chars": 2816,
+          "page": 278,
+          "document_id": "openstax-ics-web",
+          "section": "6.4"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p271:5",
         "page": 261,
         "similarity": 0.816535,
         "hit": false,
-        "text_preview": "multiple processes at\nthe same time using time slicing. A time slice is a short time frame that gets assigned to a process for CPU\nexecution. It corresponds to the time frame during which a process is allotted to run in preemptive\nmultitasking CPUs. In that case, a scheduler runs each process every "
+        "text_preview": "multiple processes at\nthe same time using time slicing. A time slice is a short time frame that gets assigned to a process for CPU\nexecution. It corresponds to the time frame during which a process is allotted to run in preemptive\nmultitasking CPUs. In that case, a scheduler runs each process every ",
+        "metadata": {
+          "chars": 3079,
+          "section": "6.3",
+          "chapter": 6,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "document_id": "openstax-ics-web",
+          "page": 271,
+          "chunk_chars": 500,
+          "chunk_index": 5,
+          "section_title": "Processes and Concurrency",
+          "printed_page": 261,
+          "page_id": "openstax-ics-web:p271",
+          "chapter_title": "Operating Systems"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p278:1",
         "page": 268,
         "similarity": 0.812257,
         "hit": false,
-        "text_preview": "he kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each process to run in a preemptive multitasking CPU such th"
+        "text_preview": "he kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each process to run in a preemptive multitasking CPU such th",
+        "metadata": {
+          "printed_page": 268,
+          "chapter": 6,
+          "page": 278,
+          "section": "6.4",
+          "section_title": "Memory Management",
+          "chunk_index": 1,
+          "document_id": "openstax-ics-web",
+          "chars": 2816,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "page_id": "openstax-ics-web:p278",
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems"
+        }
       }
     ],
     "filter": null
@@ -670,21 +1468,63 @@
         "page": 227,
         "similarity": 0.76002,
         "hit": false,
-        "text_preview": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollow"
+        "text_preview": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollow",
+        "metadata": {
+          "page_id": "openstax-ics-web:p237",
+          "printed_page": 227,
+          "chunk_index": 2,
+          "page": 237,
+          "chapter_title": "Computer Systems Organization",
+          "section_title": "Processor Architectures",
+          "chunk_chars": 500,
+          "section": "5.6",
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter": 5,
+          "chars": 1903
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p238:1",
         "page": 228,
         "similarity": 0.713052,
         "hit": false,
-        "text_preview": "d. The other phases must be modified to fetch/decode/\nissue several instructions at the same time, which is referred to as capability as shown in Figure 5.26(c).\nAnother type of parallelism is superscalar capability, which is an execution unit that allows several\ninstructions to be executed at the s"
+        "text_preview": "d. The other phases must be modified to fetch/decode/\nissue several instructions at the same time, which is referred to as capability as shown in Figure 5.26(c).\nAnother type of parallelism is superscalar capability, which is an execution unit that allows several\ninstructions to be executed at the s",
+        "metadata": {
+          "page_id": "openstax-ics-web:p238",
+          "chapter": 5,
+          "chunk_index": 1,
+          "chapter_title": "Computer Systems Organization",
+          "document_id": "openstax-ics-web",
+          "chunk_chars": 500,
+          "page": 238,
+          "chars": 3822,
+          "section": "5.6",
+          "section_title": "Processor Architectures",
+          "printed_page": 228,
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p226:6",
         "page": 216,
         "similarity": 0.710845,
         "hit": false,
-        "text_preview": "p if equal, or je, label, this instruction means jump to label if the zero flag is set to 1. In the\nprogrammer’s view of the assembly program, there are some flags that give information on the previous\ninstruction (refer to Figure 5.18). One of the flags is called the zero flag, and it is set to 1 i"
+        "text_preview": "p if equal, or je, label, this instruction means jump to label if the zero flag is set to 1. In the\nprogrammer’s view of the assembly program, there are some flags that give information on the previous\ninstruction (refer to Figure 5.18). One of the flags is called the zero flag, and it is set to 1 i",
+        "metadata": {
+          "chunk_chars": 500,
+          "page": 226,
+          "chunk_index": 6,
+          "printed_page": 216,
+          "chars": 3524,
+          "chapter_title": "Computer Systems Organization",
+          "chapter": 5,
+          "page_id": "openstax-ics-web:p226",
+          "section_title": "Machine-Level Program Representation",
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "5.4"
+        }
       }
     ],
     "filter": null
@@ -704,21 +1544,63 @@
         "page": 241,
         "similarity": 0.797377,
         "hit": false,
-        "text_preview": " This capability is vital for\nmaintaining a system’s overall integrity and performance.\nIn addition to hardware monitoring, the OS is instrumental in enforcing authentication mechanisms. This\nmeans the OS helps verify that only authorized users gain access to certain devices, especially those\nconsid"
+        "text_preview": " This capability is vital for\nmaintaining a system’s overall integrity and performance.\nIn addition to hardware monitoring, the OS is instrumental in enforcing authentication mechanisms. This\nmeans the OS helps verify that only authorized users gain access to certain devices, especially those\nconsid",
+        "metadata": {
+          "chars": 3215,
+          "chunk_index": 3,
+          "section_title": "What Is an Operating System?",
+          "chapter": 6,
+          "chunk_chars": 500,
+          "document_id": "openstax-ics-web",
+          "section": "6.1",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "chapter_title": "Operating Systems",
+          "printed_page": 241,
+          "page_id": "openstax-ics-web:p251",
+          "page": 251
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p251:4",
         "page": 241,
         "similarity": 0.7895,
         "hit": false,
-        "text_preview": "his\naspect of the OS is particularly important in environments where access to information and resources needs to\nbe tightly controlled, such as in corporate or government settings.\nThe role of an IT administrator is to define which hardware devices are available within a company’s network\nand deter"
+        "text_preview": "his\naspect of the OS is particularly important in environments where access to information and resources needs to\nbe tightly controlled, such as in corporate or government settings.\nThe role of an IT administrator is to define which hardware devices are available within a company’s network\nand deter",
+        "metadata": {
+          "printed_page": 241,
+          "chapter_title": "Operating Systems",
+          "chunk_chars": 500,
+          "chunk_index": 4,
+          "page": 251,
+          "page_id": "openstax-ics-web:p251",
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "6.1",
+          "chapter": 6,
+          "chars": 3215,
+          "section_title": "What Is an Operating System?"
+        }
       },
       {
         "chunk_id": "openstax-ics-web:p250:3",
         "page": 240,
         "similarity": 0.788813,
         "hit": false,
-        "text_preview": "manage security\nfor users.\nFigure 6.2 These days, organizations, such as companies and universities, must enable a variety of users using a variety of devices\nsupported by a variety of operating systems to securely access their systems. (attribution: Copyright Rice University, OpenStax, under\nCC BY "
+        "text_preview": "manage security\nfor users.\nFigure 6.2 These days, organizations, such as companies and universities, must enable a variety of users using a variety of devices\nsupported by a variety of operating systems to securely access their systems. (attribution: Copyright Rice University, OpenStax, under\nCC BY ",
+        "metadata": {
+          "chunk_chars": 500,
+          "chars": 2437,
+          "chapter": 6,
+          "page": 250,
+          "page_id": "openstax-ics-web:p250",
+          "chunk_index": 3,
+          "printed_page": 240,
+          "document_id": "openstax-ics-web",
+          "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+          "section": "6.1",
+          "chapter_title": "Operating Systems",
+          "section_title": "What Is an Operating System?"
+        }
       }
     ],
     "filter": null

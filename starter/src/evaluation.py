@@ -51,7 +51,8 @@ def evaluate_query(question: dict[str, Any],
              "page": (h.get("metadata") or {}).get("printed_page") or h.get("page"),
              "similarity": h.get("similarity"),
              "hit": chunk_hits(h, question),
-             "text_preview": (h.get("text") or "")[:300]}
+             "text_preview": (h.get("text") or "")[:300],
+             "metadata": h.get("metadata")}
             for h in hits[:3]
         ],
         "filter": question.get("filter"),

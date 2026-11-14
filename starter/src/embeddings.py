@@ -2,7 +2,7 @@
 
 Chặn bởi EMBEDDING_BACKEND trong .env:
 - "local": cài `sentence-transformers` + `torch`, tải model EMBEDDING_MODEL
-  (mặc định google/embeddinggemma-2B, cần RAM ~4-8GB).
+  (mặc định google/embeddinggemma-2, cần RAM ~4-8GB).
 - "openrouter": dùng API key trong .env (OPENROUTER_API_KEY), model
   EMBEDDING_MODEL (vd "google/gemini-embedding-001" hoặc model free khác).
 
@@ -31,7 +31,7 @@ class Embedder(Protocol):
 
 
 class LocalSentenceTransformerEmbedder:
-    """Chạy trên CPU. Model mặc định google/embeddinggemma-2B (ngôn ngữ
+    """Chạy trên CPU. Model mặc định google/embeddinggemma-2 (ngôn ngữ
     Anh; corpus OpenStax tiếng Anh). Có thể đổi sang all-MiniLM-L6-v2
     nếu máy yếu (kết quả khác -> phải làm lại toàn bộ thí nghiệm)."""
 
@@ -117,7 +117,7 @@ class OpenRouterEmbedder:
 def build_embedder() -> Embedder:
     """Đọc .env (EMBEDDING_BACKEND, EMBEDDING_MODEL) và tạo embedder."""
     backend = os.getenv("EMBEDDING_BACKEND", "local").lower()
-    model = os.getenv("EMBEDDING_MODEL", "google/embeddinggemma-2B")
+    model = os.getenv("EMBEDDING_MODEL", "google/embeddinggemma-2")
     if backend == "local":
         return LocalSentenceTransformerEmbedder(model)
     if backend == "openrouter":
