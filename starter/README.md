@@ -63,3 +63,52 @@ docker compose -p day6_student_starter stop
 5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.
+
+## 4. Bài làm cụ thể (lệnh setup/run của học viên)
+
+Chọn: embedding **local** (`google/embeddinggemma-2`, 768 chiều, chạy CPU)
++ vector store **Chroma local** (không dùng Docker vì máy ở lớp không có
+Docker — phương án dự phòng theo CHECKPOINTS.md).
+
+```bash
+cd starter
+python3 -m venv .venv
+# git bash: source .venv/Scripts/activate
+python3 -m pip install -r requirements.txt
+python3 -m pip install sentence-transformers Pillow torchvision chromadb
+# Pillow + torchvision: AutoProcessor của embeddinggemma-2 (model multimodal) cần chúng
+
+cp .env.example .env
+# trong .env:
+#   EMBEDDING_BACKEND=local
+#   EMBEDDING_MODEL=google/embeddinggemma-2
+#   VECTOR_STORE=chroma
+#   CHROMA_PATH=chroma_data
+# (không cần API key nào cả)
+
+# Kiểm tra benchmark trước khi chạy:
+python3 scripts/validate_benchmark.py   # phải ra "OK"
+
+# Chạy pipeline 3 cấu hình:
+python3 -m src.run
+```
+
+Lần đầu chạy, model tải về `~/.cache/huggingface` (cần mạng).
+Embed ~534-582 chunk trên CPU mất ~10 phút mỗi cấu hình.
+
+**Sản phẩm trong `results/`:**
+
+| File | Nội dung |
+|---|---|
+| `metrics.json` | Hit@1 / Evidence Hit@3 theo dev/test cho A, B, C + thời gian embed |
+| `chunk_stats.json` | số chunk, độ dài, thời gian, chi phí mỗi cấu hình |
+| `traces_A.json`, `traces_B.json`, `traces_C.json` | top-3 đầy đủ (chunk id, text, similarity, metadata) cho từng câu |
+| `corpus_text.txt` | text đã chuẩn hóa từng trang (để chấm coherence/grounding thủ công) |
+
+Số liệu dùng trong báo cáo: `report/individual/2A202603623_VoSyThaiSon.md`
+(phần Kết quả link đến chính các file trace/metrics trên). Nhãn chấm thủ công
+(coherence 10 trang đầu, grounding + metadata audit 5 câu test) được ghi trong
+báo cáo, đối chiếu trực tiếp với top-3 trong `traces_*.json`.
+
+Ghi chú: nếu chạy lại với model khác (vd `all-MiniLM-L6-v2`) thì xóa
+`chroma_data/` trước (vector khác chiều, không dùng chung được).

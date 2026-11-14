@@ -4,7 +4,8 @@ pypdf>=5,<7
 python-dotenv>=1,<2
 
 # Embedding (backend local) và vector store Chroma:
-#   python -m pip install sentence-transformers Pillow chromadb
-# Pillow: bắt buộc cho AutoProcessor của google/embeddinggemma-2 (multimodal).
-# Model nhẹ (all-MiniLM-L6-v2) thì không cần Pillow.
+#   python -m pip install sentence-transformers Pillow torchvision chromadb
+# Pillow + torchvision: AutoProcessor của google/embeddinggemma-2 (multimodal)
+# cần cả hai. Model nhẹ (all-MiniLM-L6-v2) thì không cần.
 Pillow>=10
+torchvision
