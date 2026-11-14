@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,"document_id, source, page, printed_page, chapter, section","none (all questions unfiltered)","embeddinggemma-2 local / Chroma HNSW cosine","Fixed window keeps retrieval simple; overlap 50 helps split sentences; expect lower evidence-hit where evidence spans a window boundary",6/16,7/16,3/5,3/5,"582 chunks, 271935 chars (25% overlap dup), embed 632.7s, cost 0"
+B,paragraph,500,0,"document_id, source, page, printed_page, chapter, section","none (all questions unfiltered)","embeddinggemma-2 local / Chroma HNSW cosine","Paragraph-aware chunks keep evidence intact, fewer chunks than A, better evidence-hit@3 on dev; risk: PDF line-breaks still split sentences",8/16,9/16,1/5,1/5,"534 chunks, 246985 chars (=corpus), embed 623.2s, cost 0"
+C,paragraph,500,0,"document_id, source, page, printed_page, chapter, section","filter only for 5 questions with filter (chapter/section)","embeddinggemma-2 local / Chroma HNSW cosine","Same chunks as B + jsonb/HNSW metadata filter on filtered questions: expect near-identical hits on this corpus (questions already name the chapter), filter proves metadata is usable and audit-safe",8/16,9/16,1/5,1/5,"same 534 chunks as B, embed 539.7s; filter compliance 2/2 on test, cost 0"

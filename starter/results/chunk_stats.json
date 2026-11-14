@@ -1,0 +1,51 @@
+{
+  "A": {
+    "strategy": "A",
+    "chunking": "fixed",
+    "params": {
+      "chunking": "fixed",
+      "size": 500,
+      "overlap": 50,
+      "use_filter": false
+    },
+    "num_chunks": 582,
+    "avg_chunk_chars": 467.2,
+    "max_chunk_chars": 500,
+    "total_chars": 271935,
+    "chunking_seconds": 0.0,
+    "embedding_seconds": 632.7,
+    "cost_note": "0 (model local)"
+  },
+  "B": {
+    "strategy": "B",
+    "chunking": "paragraph",
+    "params": {
+      "chunking": "paragraph",
+      "max_size": 500,
+      "use_filter": false
+    },
+    "num_chunks": 534,
+    "avg_chunk_chars": 462.5,
+    "max_chunk_chars": 500,
+    "total_chars": 246985,
+    "chunking_seconds": 0.0,
+    "embedding_seconds": 623.2,
+    "cost_note": "0 (model local)"
+  },
+  "C": {
+    "strategy": "C",
+    "chunking": "paragraph",
+    "params": {
+      "chunking": "paragraph",
+      "max_size": 500,
+      "use_filter": true
+    },
+    "num_chunks": 534,
+    "avg_chunk_chars": 462.5,
+    "max_chunk_chars": 500,
+    "total_chars": 246985,
+    "chunking_seconds": 0.0,
+    "embedding_seconds": 539.7,
+    "cost_note": "0 (model local)"
+  }
+}

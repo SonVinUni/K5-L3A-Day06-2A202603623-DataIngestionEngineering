@@ -151,6 +151,9 @@ class ChromaStore:
 
     def __init__(self, chroma_path: str, dimensions: int) -> None:
         import chromadb
+        if not chroma_path:
+            raise ValueError("CHROMA_PATH trong .env bị trống - để trống thì "
+                             "run.py sẽ tự dùng thư mục chroma_data/")
         if dimensions <= 0:
             raise ValueError(f"Số chiều phải > 0, nhận {dimensions}")
         self._client = chromadb.PersistentClient(path=chroma_path)

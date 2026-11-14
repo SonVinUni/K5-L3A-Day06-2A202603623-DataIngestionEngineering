@@ -82,7 +82,7 @@ def main() -> None:
         store.create_schema()
         print("Store: PostgreSQL + pgvector (cosine, exact)")
     elif vector_store == "chroma":
-        chroma_path = os.getenv("CHROMA_PATH", str(STARTER / "chroma_data"))
+        chroma_path = os.getenv("CHROMA_PATH") or str(STARTER / "chroma_data")
         store = ChromaStore(chroma_path, dims)
         store.create_schema()
         print(f"Store: Chroma local (cosine, HNSW approximate) tại {chroma_path}")

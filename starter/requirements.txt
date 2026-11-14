@@ -1,4 +1,10 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup and PDF parsing.
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+
+# Embedding (backend local) và vector store Chroma:
+#   python -m pip install sentence-transformers Pillow chromadb
+# Pillow: bắt buộc cho AutoProcessor của google/embeddinggemma-2 (multimodal).
+# Model nhẹ (all-MiniLM-L6-v2) thì không cần Pillow.
+Pillow>=10

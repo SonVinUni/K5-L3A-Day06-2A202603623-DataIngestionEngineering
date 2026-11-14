@@ -1,0 +1,726 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "question": "Hệ điều hành (OS) là thành phần phần mềm nào trong máy tính và nó quản lý điều gì?",
+    "gold_pages": [
+      250
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p250:0",
+        "page": 240,
+        "similarity": 0.823902,
+        "hit": true,
+        "text_preview": "typically required to facilitate access to all the components involved.\n6.1 What Is an Operating System?\nLearning Objectives\nBy the end of this section, you will be able to:\n• Describe an operating system and its role in computing\n• Explain the architecture of operating systems\nAn operating system ("
+      },
+      {
+        "chunk_id": "openstax-ics-web:p253:8",
+        "page": 243,
+        "similarity": 0.800253,
+        "hit": false,
+        "text_preview": "hows the support\nlayers within the UNIX/Linux system structure. The OS navigates between three layers: the user mode, where\nthe application resides; the kernel mode, which is in effect sandwiched between the user and hardware; and\nthe hardware, which refers to resources such as the CPU and memory. I"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p257:0",
+        "page": 247,
+        "similarity": 0.791677,
+        "hit": false,
+        "text_preview": "the computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolith"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "question": "Thuật ngữ nào dùng để chỉ việc OS quyết định chương trình nào dùng phần cứng nào tại mỗi thời điểm?",
+    "gold_pages": [
+      214
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p251:0",
+        "page": 241,
+        "similarity": 0.820568,
+        "hit": false,
+        "text_preview": "concurrently on the same CPU and memory operate independently without interfering with each other’s\nexecution or data. This maintains system stability and security. From a hardware point of view, the hardware is\ndesigned to enable programmers to write OSs and applications. In general, the OS mediate"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p272:6",
+        "page": 262,
+        "similarity": 0.81723,
+        "hit": false,
+        "text_preview": "gy is called scheduling. In OSs, a process can be in one of several states. These states are part\nof the process life cycle, and understanding them is essential for grasping how the OS manages processes. The\nspecific names and number of states can vary between OSs, but the fundamental concepts remai"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p254:4",
+        "page": 244,
+        "similarity": 0.816935,
+        "hit": false,
+        "text_preview": "ams on a machine. Each running program runs in its own process, and the OS can run, switch, and\nisolate processes from each other even though they are actually running on the same hardware. For a given\napplication, the “machine” is the process abstraction provided by the OS. Processes provide user-f"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "question": "OS dùng kỹ thuật gì để cách ly các chương trình, giúp chúng không ghi đè dữ liệu hay làm hỏng file của nhau?",
+    "gold_pages": [
+      214
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p253:6",
+        "page": 243,
+        "similarity": 0.825953,
+        "hit": false,
+        "text_preview": "iple applications at the same time and keep them from\ninterfering with or crashing each other. OSs provide convenient abstractions to handle diverse hardware. They\ncoordinate resources and protect users from each other using a few critical hardware mechanisms. OSs make\nit easier for developers to cr"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p214:1",
+        "page": 204,
+        "similarity": 0.810013,
+        "hit": false,
+        "text_preview": "programs cannot affect the\nmachine) and reliability (a program cannot affect a piece of hardware, which would then affect other\nprograms). In order for the OS to do its job efficiently, it stores the data and programs on disk in an organized\nway using a file system. The file system helps organize fi"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p214:4",
+        "page": 204,
+        "similarity": 0.809188,
+        "hit": false,
+        "text_preview": "ams from each other so that they do not overwrite\neach other’s data or corrupt each other’s files is called virtual memory. Additionally, the OS can leverage\nseveral computers referred to as virtual machines together to act as one big computer and to serve several\nuses at the same time. Users may th"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "question": "Trong chương 5, công nghệ bộ nhớ nào được dùng làm cache memory và nó có đặc điểm gì?",
+    "gold_pages": [
+      229
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p233:0",
+        "page": 223,
+        "similarity": 0.818506,
+        "hit": false,
+        "text_preview": "Both the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technol"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p232:4",
+        "page": 222,
+        "similarity": 0.818184,
+        "hit": false,
+        "text_preview": " referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean the SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p232:3",
+        "page": 222,
+        "similarity": 0.817735,
+        "hit": false,
+        "text_preview": "ant distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However,"
+      }
+    ],
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "question": "Trong mục 5.5, SRAM còn được gọi là gì và nhờ đó nó có tác dụng gì?",
+    "gold_pages": [
+      232
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p231:3",
+        "page": 221,
+        "similarity": 0.805986,
+        "hit": false,
+        "text_preview": "gure 5.19 shows the slow speed increase of the DRAM, which affects the\nperformance of the overall system. If the processor must go to the memory for every instruction and every\npiece of data, the overall system performance is very low; therefore, computer designers speed things up by\nusing a faster "
+      },
+      {
+        "chunk_id": "openstax-ics-web:p232:1",
+        "page": 222,
+        "similarity": 0.801267,
+        "hit": false,
+        "text_preview": "m access memory (SRAM) which keeps data in the computer’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it n"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p232:2",
+        "page": 222,
+        "similarity": 0.788673,
+        "hit": false,
+        "text_preview": "tence of the processor itself. So, SRAM is a small, fast\nmemory inside the chip that is connected to the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.2"
+      }
+    ],
+    "filter": {
+      "section": "5.5"
+    }
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "question": "DRAM (bộ nhớ chính) có các đặc điểm nào so với kích thước theo bảng công nghệ lưu trữ?",
+    "gold_pages": [
+      229
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p232:1",
+        "page": 222,
+        "similarity": 0.818488,
+        "hit": false,
+        "text_preview": "m access memory (SRAM) which keeps data in the computer’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it n"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p233:1",
+        "page": 223,
+        "similarity": 0.791212,
+        "hit": false,
+        "text_preview": "gies 3 and 4 in Figure 5.20, has few characteristics that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand hi"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p232:0",
+        "page": 222,
+        "similarity": 0.77951,
+        "hit": false,
+        "text_preview": "Memory: SRAM\nThere are several reasons for the slow speed of getting the data from DRAM to processor. One is the much\nslower speed of DRAM technology relative to the processor. The second reason is that going off the chip that\ncontains the processor and to the bus to reach the DRAM memory is a slow "
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "question": "Khi lệnh thứ nhất vừa được xử lý đến giai đoạn issue, các giai đoạn fetch/decode của pipeline đang làm gì, và điều này tạo ra hình thức song song nào?",
+    "gold_pages": [
+      237
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p237:3",
+        "page": 227,
+        "similarity": 0.805649,
+        "hit": false,
+        "text_preview": "ach piece called a phase (Figure 5.26(b)). What do we\ngain from this?\nFirst, each phase is now much less complicated, less power hungry, and faster. Second, once the fetch phase\nfinishes fetching the first instruction and hands it to the decode phase, the fetch phase hardware is now free\nto fetch th"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p237:2",
+        "page": 227,
+        "similarity": 0.775973,
+        "hit": false,
+        "text_preview": " floating-point operation to floating point execution unit).\nAfter execution, it writes the result of the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into th"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p273:1",
+        "page": 263,
+        "similarity": 0.740718,
+        "hit": false,
+        "text_preview": "hes the\nprocess, it transitions to the running state, where it is actively executing its instructions. If the process is\ninterrupted, it reverts to the ready state, waiting once again for a chance to run. Certain events, such as I/O\nrequests or page faults, can cause the running process to experienc"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "question": "Vì sao việc tăng số transistor trong bộ vi xử lý lại được kỳ vọng cải thiện hiệu năng?",
+    "gold_pages": [
+      236
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p236:6",
+        "page": 226,
+        "similarity": 0.806347,
+        "hit": true,
+        "text_preview": "Dennard Scaling\nIn 1965, Gordon Moore (cofounder of Intel) published a short paper that predicted that the number of devices\ninside the processor would double every 18 months, called Moore’s law. Since transistors are the building\nblocks of logic gates, and logic gates are the building blocks of pie"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p222:1",
+        "page": 212,
+        "similarity": 0.799836,
+        "hit": false,
+        "text_preview": "o memory), and the amount of memory the\nprocessor can access (for n-bit machines, the processor can access 2n bytes of memory). The ISA also evolves\nin parallel to incorporate the larger registers (hence the move from IA32 to x86-64) and the computations with\nlarger numbers. Second, we can see the t"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p227:5",
+        "page": 217,
+        "similarity": 0.797259,
+        "hit": false,
+        "text_preview": "s by innovating ways\nto use transistors provided to them by Moore’s law. They used those transistors, which were doubling per chip\non average every 18 months, to add more features to the processor leading to better processor performance.\nHowever, the same was not done with memory, which resulted in "
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "question": "Đâu là 3 bước chính trong pipeline xử lý lệnh (từ bộ nhớ đến đơn vị thực thi)?",
+    "gold_pages": [
+      237
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p238:0",
+        "page": 228,
+        "similarity": 0.761397,
+        "hit": false,
+        "text_preview": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the progr"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p267:7",
+        "page": 257,
+        "similarity": 0.756422,
+        "hit": false,
+        "text_preview": "hen the program is loaded into the memory of a computer and\nbegins execution, it becomes an active entity known as a process. This transformation is crucial for any\ncomputational task, as it moves the program from a static state into an active one where it can perform\n6.3 • Processes and Concurrency"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p205:7",
+        "page": 195,
+        "similarity": 0.754469,
+        "hit": false,
+        "text_preview": "tware developers are translated into a set of instructions such as, “Add number 1 to number 2 and save\nthe result as number 3.” These instructions are stored as a series of 1s and 0s. Each group of those 1s and 0s\nrepresents a single instruction. All the instructions, in their representation as 1s a"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "question": "Process trong hệ điều hành được định nghĩa như thế nào?",
+    "gold_pages": [
+      267
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p254:4",
+        "page": 244,
+        "similarity": 0.807907,
+        "hit": false,
+        "text_preview": "ams on a machine. Each running program runs in its own process, and the OS can run, switch, and\nisolate processes from each other even though they are actually running on the same hardware. For a given\napplication, the “machine” is the process abstraction provided by the OS. Processes provide user-f"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p258:3",
+        "page": 248,
+        "similarity": 0.799848,
+        "hit": false,
+        "text_preview": "l processor (i.e., CPU core assigned to a virtual\nmachine). At any time, there may be many processes running copies of the same program (e.g., an editor);\neach process is separate and usually independent. An OS is responsible for managing these processes.\nDifferent OSs approach process management in"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p268:1",
+        "page": 258,
+        "similarity": 0.798,
+        "hit": false,
+        "text_preview": "ess or machine acts as a client requesting a service or data, and another\nmachine or process acts like a server providing those services or data to the client machine. The\ncommunication between server and client uses various OS protocols and mechanisms for message passing,\nincluding sockets, remote "
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "question": "Một process bao gồm ít nhất những thành phần nào?",
+    "gold_pages": [
+      268
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p268:1",
+        "page": 258,
+        "similarity": 0.754185,
+        "hit": true,
+        "text_preview": "ess or machine acts as a client requesting a service or data, and another\nmachine or process acts like a server providing those services or data to the client machine. The\ncommunication between server and client uses various OS protocols and mechanisms for message passing,\nincluding sockets, remote "
+      },
+      {
+        "chunk_id": "openstax-ics-web:p258:1",
+        "page": 248,
+        "similarity": 0.747668,
+        "hit": false,
+        "text_preview": "hat\nare some steps you would take to diagnose the problem on your own before seeking help or a repair?\nProcesses vs. Threads\nAs we have learned, a process is an active program. A thread is a smaller or lightweight portion of a process\nthat is managed independently. Table 6.2 shows a comparison betwe"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p267:7",
+        "page": 257,
+        "similarity": 0.733886,
+        "hit": false,
+        "text_preview": "hen the program is loaded into the memory of a computer and\nbegins execution, it becomes an active entity known as a process. This transformation is crucial for any\ncomputational task, as it moves the program from a static state into an active one where it can perform\n6.3 • Processes and Concurrency"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "question": "Paging là cơ chế lưu trữ như thế nào trong quản trị bộ nhớ?",
+    "gold_pages": [
+      282
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p282:1",
+        "page": 272,
+        "similarity": 0.800652,
+        "hit": true,
+        "text_preview": "n of how to implement virtual memory (https://openstax.org/r/76virtmem) to investigate this\nquestion.\nDemand Paging\nThe storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging. Virtual memory presented a seemingly infinite amou"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p283:2",
+        "page": 273,
+        "similarity": 0.798164,
+        "hit": false,
+        "text_preview": "ges into DRAM and out-of-use pages to disk. The process of bringing pages into memory (i.e.,\ndemand paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p283:4",
+        "page": 273,
+        "similarity": 0.787169,
+        "hit": false,
+        "text_preview": "ved to disk, so another page fault soon occurs, and this leads to thrashing. Thrashing is\nwhen a computer’s operating system becomes overwhelmed by the number of processes requesting memory.\nThis situation leads to a cycle where the system spends more time moving data between the physical memory\nand"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "question": "Theo chương 6, file system và thiết bị đĩa (disk device) khác nhau ở đâu về bản chất?",
+    "gold_pages": [
+      285
+    ],
+    "hit@1": false,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p284:2",
+        "page": 274,
+        "similarity": 0.818136,
+        "hit": false,
+        "text_preview": "about what’s happening inside your CPU.\nIf you’re using a computer that runs Windows, check out this resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• E"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p285:0",
+        "page": 275,
+        "similarity": 0.81016,
+        "hit": true,
+        "text_preview": "crashes and hardware failures is called its reliability. In addition to improving reliability, a file system should\nguarantee a high level of protection by maintaining isolation between users and controlling the sharing of\nresources.\nDisk Devices\nWhile file systems are a layer of abstraction that pr"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p286:0",
+        "page": 276,
+        "similarity": 0.794572,
+        "hit": false,
+        "text_preview": "Figure 6.33 In file versioning, the OS saves all copies of a file (in this case, a doc or document file) . (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nFile systems are concerned with lower-level characteristics such as performance and failure resilience. Both\npe"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "question": "Security kernel là gì và nó được cấu thành từ những gì?",
+    "gold_pages": [
+      291
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p291:1",
+        "page": 281,
+        "similarity": 0.823194,
+        "hit": true,
+        "text_preview": "herefore, it must be simple in programming and small in size. The security kernel is a substitute\napproach that is composed of hardware and software and serves as the OS’s inner protection layer. Generally,\nany kind of management such as memory and interrupt management are provided by a security ker"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p265:1",
+        "page": 255,
+        "similarity": 0.762667,
+        "hit": false,
+        "text_preview": "ents. Also, there is less code running at full privilege, and greater ease of extension\nand customization. However, performance is generally poor due to user and kernel boundary crossings, which\nrepresent a security risk when the kernel code operates on the data.\nThe first microkernel system was Hyd"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p266:1",
+        "page": 256,
+        "similarity": 0.760017,
+        "hit": false,
+        "text_preview": "critical advancements in the field of computing by offering different\nmethodologies for resource abstraction, allocation, and management are cloud infrastructure and the\nexokernel.\nThe exokernel architecture simplifies the OS by making its core (kernel) really small and letting apps have\nmore contro"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "question": "Khi OS thiếu bộ nhớ vật lý, quá trình đưa page vào bộ nhớ chính khi cần thiết được gọi là gì?",
+    "gold_pages": [
+      282
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p283:2",
+        "page": 273,
+        "similarity": 0.828862,
+        "hit": false,
+        "text_preview": "ges into DRAM and out-of-use pages to disk. The process of bringing pages into memory (i.e.,\ndemand paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p283:1",
+        "page": 273,
+        "similarity": 0.828259,
+        "hit": false,
+        "text_preview": "age\nfault, the CPU transfers control from the program to the OS to demand the requested page to the main\nmemory. OS finds a free page frame in memory, loads the page from the backing store to the main memory,\nand resumes execution of the thread. The CPU has special hardware to assist in resuming exe"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p283:3",
+        "page": 273,
+        "similarity": 0.803953,
+        "hit": false,
+        "text_preview": "formed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In page replacement, one page in the (full) DRAM is swapped to disk while the\nrequested page is brought into DRAM. However, if too many processes need acce"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q16",
+    "split": "dev",
+    "question": "Trong chương 6, các hệ điều hành phổ biến trên máy tính và trên thiết bị di động được nêu là gì?",
+    "gold_pages": [
+      250
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p250:1",
+        "page": 240,
+        "similarity": 0.820027,
+        "hit": true,
+        "text_preview": "n start-up and is the key piece\nof software needed to operate any computerized device.\nIntroduction\nThere are many operating systems (OSs), and anyone using a modern computer is using one of them. The\ntypical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Fi"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p249:0",
+        "page": 239,
+        "similarity": 0.814395,
+        "hit": false,
+        "text_preview": "Figure 6.1 Operating systems operate on many computers and devices, which means that when they need an update (due to an\nerror or virus), all those systems need the same fix. (credit: modification of “Windows Blue Screen on room full of computers,” by\nGrj23/Wikimedia.com, CC0)\nChapter Outline\n6.1 Wh"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p257:2",
+        "page": 247,
+        "similarity": 0.804764,
+        "hit": false,
+        "text_preview": "keyboard and/or mouse, interact with the OS\nthrough the OS interface. The OS interface could be a graphical user interface (GUI), which allows users to\ninteract with electronic devices through graphical icons and visual indicators (e.g., Windows), or a command\nline (e.g., DOS). For example, in Figur"
+      }
+    ],
+    "filter": {
+      "chapter": 6
+    }
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Theo mục 5.2, chương trình nào là phần mềm duy nhất có thể truy cập trực tiếp phần cứng, và chương trình khác (ví dụ in ấn) phải làm gì để thao tác phần cứng?",
+    "gold_pages": [
+      214
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p214:0",
+        "page": 204,
+        "similarity": 0.816798,
+        "hit": true,
+        "text_preview": "has more privileges in the computer system.\nThe operating system (OS), shown in Figure 5.10 is the only piece of software that can directly access the\nhardware. Any other program that needs to access the hardware, such as printing something, must talk to the\nOS, and the OS achieves the requested tas"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p204:7",
+        "page": 194,
+        "similarity": 0.780241,
+        "hit": false,
+        "text_preview": "ard drives, motherboards, and processor chips. The software\nconsists of the programs you execute, such as media players or web browsers, and the data needed for these\n194 5 • Hardware Realizations of Algorithms: Computer Systems Design\nAccess for free at openstax.org"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p206:0",
+        "page": 196,
+        "similarity": 0.759301,
+        "hit": false,
+        "text_preview": "(Figure 5.3). This special software that translates HLLs to executables includes tools called compilers,\nassemblers, and linkers. We will not discuss these tools here, (refer to 5.2 Computer Levels of Abstraction and\n5.4 Machine-Level Program Representation), but we now know what they do. Here, we w"
+      }
+    ],
+    "filter": {
+      "section": "5.2"
+    }
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "Trong chương 5, điểm khác biệt quan trọng giữa cache memory và DRAM liên quan đến lập trình viên là gì?",
+    "gold_pages": [
+      232
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p232:3",
+        "page": 222,
+        "similarity": 0.848352,
+        "hit": false,
+        "text_preview": "ant distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However,"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p232:4",
+        "page": 222,
+        "similarity": 0.835547,
+        "hit": false,
+        "text_preview": " referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean the SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p233:1",
+        "page": 223,
+        "similarity": 0.804039,
+        "hit": false,
+        "text_preview": "gies 3 and 4 in Figure 5.20, has few characteristics that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand hi"
+      }
+    ],
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Nếu một process không hoàn thành công việc trước khi hết time slice, CPU xử lý nó như thế nào?",
+    "gold_pages": [
+      278
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p278:2",
+        "page": 268,
+        "similarity": 0.867677,
+        "hit": true,
+        "text_preview": " it releases the CPU\nand does not need to be swapped out. If the time slice ends and the process did not finish the job, the CPU\nshifts it out to the end of the processes queue. For example, assume we have three processes P1 with\nexecution time 3 ms, P2 with execution time 4 ms, and P3 with executio"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p271:5",
+        "page": 261,
+        "similarity": 0.82046,
+        "hit": false,
+        "text_preview": "t a time to process or run a job. This old way of processing\nrequired more resources such as memory and processors to finish a single task. By the late 1970s, the more\nprominent approach became multitasking, which makes it possible for the OS to run multiple processes at\nthe same time using time sli"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p278:1",
+        "page": 268,
+        "similarity": 0.818516,
+        "hit": false,
+        "text_preview": "uest that arises from the\nuser mode and requires the kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each proce"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "Giai đoạn nào trong pipeline viết kết quả phép tính trở lại đúng chỗ chỉ định bởi lệnh, và có tên gọi là gì?",
+    "gold_pages": [
+      237
+    ],
+    "hit@1": true,
+    "evidence_hit@3": true,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p237:2",
+        "page": 227,
+        "similarity": 0.727943,
+        "hit": true,
+        "text_preview": " floating-point operation to floating point execution unit).\nAfter execution, it writes the result of the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into th"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p212:3",
+        "page": 202,
+        "similarity": 0.718726,
+        "hit": false,
+        "text_preview": "s the execution is called the processor. The processor takes one instruction from\nthe machine language file, executes it, and writes the results back in a designated place. Then, it fetches the\nfollowing instruction and does the same. It keeps doing this until the program ends or an error occurs. Th"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p205:7",
+        "page": 195,
+        "similarity": 0.710623,
+        "hit": false,
+        "text_preview": "tware developers are translated into a set of instructions such as, “Add number 1 to number 2 and save\nthe result as number 3.” These instructions are stored as a series of 1s and 0s. Each group of those 1s and 0s\nrepresents a single instruction. All the instructions, in their representation as 1s a"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "question_id": "q21",
+    "split": "test",
+    "question": "Thành phần nào của OS chịu trách nhiệm áp dụng quy tắc truy cập, bảo vệ xác thực và phân quyền để đảm bảo an toàn?",
+    "gold_pages": [
+      291
+    ],
+    "hit@1": false,
+    "evidence_hit@3": false,
+    "top3": [
+      {
+        "chunk_id": "openstax-ics-web:p251:4",
+        "page": 241,
+        "similarity": 0.817776,
+        "hit": false,
+        "text_preview": "ered sensitive. By managing user permissions and access levels, the OS can prevent unauthorized\naccess to critical hardware resources, safeguarding against potential security breaches or data theft. This\naspect of the OS is particularly important in environments where access to information and resou"
+      },
+      {
+        "chunk_id": "openstax-ics-web:p251:3",
+        "page": 241,
+        "similarity": 0.79857,
+        "hit": false,
+        "text_preview": "s monitoring hardware access, which involves tracking and regulating which\napplications or users can communicate with the hardware and how they do so. This capability is vital for\nmaintaining a system’s overall integrity and performance.\nIn addition to hardware monitoring, the OS is instrumental in "
+      },
+      {
+        "chunk_id": "openstax-ics-web:p289:3",
+        "page": 279,
+        "similarity": 0.782393,
+        "hit": false,
+        "text_preview": "out the OS for all resources that need to be protected, such as\nmemory, processes, files, devices, CPU time, and network bandwidth is called protection. The objectives of the\nprotection mechanism are to allow sharing (which in this context means using the hardware to do more than\none thing at a time"
+      }
+    ],
+    "filter": null
+  }
+]
