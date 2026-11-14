@@ -11,7 +11,7 @@ Mảng JSON, mỗi câu:
 {
   "id": "q01",
   "split": "dev",
-  "type": "truc_tiep | dien_thu_lai | dieu_kien_ngoai_le | metadata_filter",
+  "type": "truc_tiep | dien_thu_lai | dieu_kien_ngoai_le | filter",
   "question": "Câu hỏi viết tay, KHÔNG chứa đáp án/gold source",
   "expected_answer": "Đáp án mong đợi",
   "gold_source_id": "openstax-ics-web",
